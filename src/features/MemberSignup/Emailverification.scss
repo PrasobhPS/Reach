@@ -1,0 +1,161 @@
+.EmailVerified-parent{
+    margin-top:180px;
+    padding-bottom:60px;
+    @media screen and (max-width:767px){
+         margin-top:110px;
+    }
+    .Email-verifiedPage{
+        max-width:800px;
+        margin:0 auto;
+        text-align:center;
+        // background-color:var(--theme-white);
+        background-color:#1a232b;
+        margin-top:60px;
+        position: relative;
+        border-radius:4px;
+        .message-iconbox{
+            border-radius:50%;
+            background-color:#1a232b;
+            position:absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top:-70px;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            border:4px solid var(--theme-thunder);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            &>svg{
+                color: #fff;
+                font-size: 37px;
+                 @media screen and (max-width:767px){
+                    font-size:30px;
+                 }
+            }
+
+        }
+        .text-content{
+            padding:50px;
+             @media screen and (max-width:767px){
+                 padding:40px;
+             }
+            &>h1{
+                font-size:30px;
+                font-family:var(--theme-secondary-font);
+                color:var(--theme-white);
+                position: relative;
+                 @media screen and (max-width:767px){
+                    font-size:20px;
+                 }
+                &:after{
+                    content: "";
+                    border: 1px solid var(--theme-green);
+                    width: 100px;
+                    height: 2px;
+                    display: inline-block;
+                    position: absolute;
+                    bottom:-10px;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                }
+            }
+            .content-para{
+                margin-top:30px;
+                &>span{
+                    color:var(--theme-white);
+                    font-size:18px;
+                    line-height:1.2;
+                    font-weight:normal;
+                    font-family:var(--theme-secondary-font);
+                }
+            }
+            .send-action{
+                max-width:300px;
+                margin-top:20px;
+            }
+            .dont-get{
+                margin-top:20px;
+                &>a {
+                    font-size:15px;
+                    color:#fff;
+                    font-weight:500;
+                    font-family:var(--theme-secondary-font);
+                    text-decoration:none;
+                }
+            }
+        }
+    }
+    &.verifiedpage{
+        .message-iconbox{
+            &>svg{
+                color:var(--theme-green);
+            }
+        }
+    }
+}
+
+.bottom-modal {
+    display: flex !important;
+    align-items: flex-end;
+    justify-content: center;
+    .modal-content{
+        border-radius:0px;
+        .modal-header{
+            padding-bottom:18px;
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+            width: 100%;
+            justify-content: space-between;
+            .modal-title{
+                width:100%;
+            }
+            .bottom-modalview{
+                display:flex;
+                align-items:center;
+                justify-content:space-between;
+                &>p{
+                    font-size:16px;
+                    margin-bottom:0px;
+                    margin-left: 20px;
+                    font-family:var(--theme-primary-font);
+                }
+                .open-app{
+                    width:110px !important;
+                    min-width:110px;
+                   
+                    margin-left:15px;
+                }
+            }
+        }
+        .modal-body{
+            padding:0;
+        }
+    }
+    .modal-dialog {
+        width: 100%; // Full width
+        max-width: none; 
+        margin: 0; 
+        animation: slide-up 0.3s ease-out;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-out;
+    }
+
+    &.show .modal-dialog {
+        transform: translateY(100);
+    }
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/4541.2717ba54.chunk.js","mappings":"qJAMA,QAJA,WACE,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,kBACd,C","sources":["pages/DiscoverReach.tsx"],"sourcesContent":["import React from \"react\";\n\nfunction DiscoverReach() {\n  return <div>discover-reach</div>;\n}\n\nexport default DiscoverReach;\n"],"names":["_jsx","children"],"sourceRoot":""}

@@ -1,0 +1,66 @@
+@import '../../assets/scss/variables';
+.custom-dob-select{
+    select{
+        background-position: right 0.5rem center;
+        background-repeat: no-repeat;
+        background-size: 1.5em 1.5em;
+        padding-right: 2.5rem;
+        background-image:url('../../assets/images/angle-down.svg');
+    }
+    &.form-group{
+        text-align: left;
+        .form-control{
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-width: 1px;
+            border-radius: 0px;
+            padding-top: 0.5rem;
+            padding-right: 0.75rem;
+            padding-bottom: 0.5rem;
+            padding-left:0;
+            font-size:13px;
+            line-height:16.9px;
+            border-radius: 0;
+            background-color: transparent;
+            border:0;
+            border-bottom: 1px solid #FFFFFF;
+            font-family: var(--theme-primary-font);
+            outline: none;
+            -webkit-box-shadow:none;
+            box-shadow:none;
+            color: #FFFFFF;
+            &>option{
+                color:$black;
+            }
+            &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: #ffffff;
+                }
+            &::-moz-placeholder { /* Firefox 19+ */
+            color: #ffffff;
+            }
+            &:-ms-input-placeholder { /* IE 10+ */
+            color: #ffffff;
+            }
+            &:-moz-placeholder { /* Firefox 18- */
+            color: #ffffff;
+            }
+        }
+        &.has-error{
+            .has-select-error{
+                .form-control{
+                    border-bottom-color: var(--theme-hotPink);
+                }
+                .error{
+                    color: var(--theme-hotPink);
+                    display: block;
+                    font-family: var(--theme-secondary-font);
+                    font-weight: 300;
+                    font-size: 13px;
+                    line-height: 15.4px;
+                    margin-top: 6px;
+                }
+            }
+        }
+    }
+}

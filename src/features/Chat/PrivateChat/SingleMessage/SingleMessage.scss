@@ -1,0 +1,152 @@
+.swal2-container {
+    &.delete-message-swal {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .swal2-popup {
+            width: 21em;
+        }
+        .swal2-warning{
+            border-color:var(--theme-hotPink);
+            color:var(--theme-hotPink);
+            width:2em;
+            height:2em;
+            .swal2-icon-content{
+                font-size:1.75em;
+            }
+        }
+
+        .swal2-title {
+            line-height: 1.1;
+            font-size: 20px;
+            margin-bottom: 2px;
+        }
+
+        .swal2-html-container {
+            &>p {
+                font-size: 16px;
+                font-family: var(--theme-primary-font);
+            }
+        }
+
+        .swal2-actions {
+            .swal2-confirm {
+                font-size: 11px;
+                font-weight: 500;
+                font-family: var(--theme-secondary-font);
+                line-height: 14.3px;
+                text-transform: uppercase;
+            }
+
+            .swal2-cancel {
+                font-size: 11px;
+                font-weight: 500;
+                font-family: var(--theme-secondary-font);
+                line-height: 14.3px;
+                text-transform: uppercase;
+            }
+        }
+    }
+    &.report-message-swal {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .checkbox-container{
+            position: relative;
+            &>label{
+                font-size:14px;
+                font-family:var(--theme-primary-font);
+                line-height: 14.3px;
+            }
+        }
+        .swal2-validation-message{
+            font-size: 12px;
+            font-family: var(--theme-primary-font);
+            max-width: 282px;
+            margin: 0 auto;
+            margin-top:5px;
+            border-radius:4px;
+        }
+        .swal2-popup {
+            width: 21em;
+        }
+        .swal2-warning{
+            border-color:var(--theme-hotPink);
+            color:var(--theme-hotPink);
+            width:2em;
+            height:2em;
+            margin: 0 auto;
+            margin-top: 10px;
+            .swal2-icon-content{
+                font-size:1.75em;
+            }
+        }
+        .swal2-title {
+            line-height: 1.1;
+            font-size:14px;
+            margin-bottom: 2px;
+        }
+        .swal2-html-container {
+            padding:0px 30px 0px 30px;
+            &>p {
+                margin-top:6px;
+                font-size:14px;
+                font-family: var(--theme-primary-font);
+                margin-bottom:0px;
+            }
+        }
+        .swal2-actions {
+            .swal2-confirm {
+                font-size: 11px;
+                font-weight: 500;
+                font-family: var(--theme-secondary-font);
+                line-height: 14.3px;
+                text-transform: uppercase;
+            }
+
+            .swal2-cancel {
+                font-size: 11px;
+                font-weight: 500;
+                font-family: var(--theme-secondary-font);
+                line-height: 14.3px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+.chat-singleViewmodal{
+    max-height: calc(100vh - 400px);
+    height: 100%;
+    max-width: calc(100% - 60%)  !important;
+    @media screen and (max-width:767px){
+        max-width:100% !important;
+    }
+    .modal-content{
+        height:100%;
+        .modal-body{
+            height:100%;
+            .action-modal{
+                max-height: calc(100vh - 125px);
+                -o-object-fit: cover;
+                object-fit: cover;
+                height: 90%;
+                
+                &>img{
+                    height:100%;
+                    object-fit:contain;
+                }
+            }
+        }
+    }
+}

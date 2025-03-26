@@ -1,0 +1,193 @@
+.payement-page{
+    position: relative;
+    padding:15px;
+    h2{
+        &.customHeading{
+            font-size:16px;
+        }
+    }
+    .payment-tabinfo {
+        padding:12px;
+        background-color: #d2dde8c4;
+        padding-bottom: 5px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        border-radius: 8px;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom:0px;
+        position: relative;
+
+        &>ul {
+            padding: 20px;
+            padding-bottom: 7px;
+            padding-top: 28px;
+            margin-bottom:0px;
+            li {
+                text-align:start;
+                margin-bottom: 5px;
+                font-size: 15px;
+                color: var(--theme-head-black);
+                line-height: 20px;
+                font-family: var(--theme-primary-font);
+            }
+        }
+
+        .info-icon {
+            position: absolute;
+            top: -9px;
+            left: -12px;
+            font-size: 24px;
+            color: var(--theme-hotPink);
+        }
+    }
+    .amount-box{
+        h2{
+            &.customHeading{
+                font-size:15px;
+                font-weight:500;
+                text-transform: capitalize;
+                line-height:32px;
+            }
+        }
+        .amount{
+            &>span{
+                font-size:16px;
+                color:var(--theme-head-black);
+
+            }
+        }
+    }
+    .login-box {
+                padding-top: 10px;
+
+                .login-box-inner {
+                    #checkout-form {
+                        border: 1px solid #6666663d;
+                        border-radius: 4px;
+                        padding: 22px;
+                    }
+                    .form-group {
+                        margin-bottom: 10px;
+                        &.cardInputHolder {
+                            position: relative;
+                            .cardIcon {
+                                position: absolute;
+                                bottom: 5px;
+                                right: 0;
+                            }
+                        }
+                        &>label {
+                            font-family: var(--theme-primary-font);
+                            color: #343434;
+                            margin-bottom: 8px;
+                        }
+                        .StripeElement {
+                            border-bottom: 1px solid var(--theme-Quicksilver);
+                        }
+                    }
+                    #payment-form {
+                        padding: 60px;
+                        .StripeElement {
+                            position: relative;
+                            .__PrivateStripeElement {
+                                position: relative;
+                            }
+                            iframe {
+                                -webkit-appearance: none;
+                                -moz-appearance: none;
+                                appearance: none;
+                                border-width: 1px;
+                                border-radius: 0px;
+                                padding-top: 0.5rem;
+                                padding-right: 0.75rem;
+                                padding-bottom: 0.5rem;
+                                padding-left: 0;
+                                font-size: 1rem;
+                                line-height: 1.5rem;
+                                border-radius: 0;
+                                background-color: transparent;
+                                border: 0;
+                                border-bottom: 1px solid var(--theme-white);
+                                font-family: var(--theme-primary-font);
+                                outline: none;
+                                -webkit-box-shadow: none;
+                                box-shadow: none;
+                                color: var(--theme-white);
+                                height: 40px !important;
+                                &::-webkit-input-placeholder {
+                                    /* Chrome/Opera/Safari */
+                                    color: var(--theme-white);
+                                }
+                            }
+
+                            .CardNumberField-input-wrapper {
+                                .InputContainer {
+                                    .InputElement {
+                                        -webkit-appearance: none;
+                                        -moz-appearance: none;
+                                        appearance: none;
+                                        border-width: 1px;
+                                        border-radius: 0px;
+                                        padding-top: 0.5rem;
+                                        padding-right: 0.75rem;
+                                        padding-bottom: 0.5rem;
+                                        padding-left: 0;
+                                        font-size: 1rem;
+                                        line-height: 1.5rem;
+                                        border-radius: 0;
+                                        background-color: transparent;
+                                        border: 0;
+                                        border-bottom: 1px solid var(--theme-white);
+                                        font-family: var(--theme-primary-font);
+                                        outline: none;
+                                        -webkit-box-shadow: none;
+                                        box-shadow: none;
+                                        color: var(--theme-white);
+                                        &::-webkit-input-placeholder {
+                                            /* Chrome/Opera/Safari */
+                                            color: var(--theme-white);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-pay {
+                        padding: 12px 28px;
+                        border: 0;
+                        border-radius: 3px;
+                        min-width: 90px;
+                        line-height: 20.8px;
+                        cursor: pointer;
+                        transition: all 0.35s ease;
+                        font-family: var(--theme-primary-font);
+                        background-color: var(--theme-thunder);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: var(--theme-white);
+                        margin-top:7px;
+                        &>span {
+                            font-size: 13px;
+                            margin-left: 13px;
+                            color: var(--theme-hotPink);
+                        }
+                    }
+                }
+
+                .card-img {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-bottom: 0px;
+                    padding-top: 10px;
+
+                    &>img {
+                        max-width:100px;
+                        text-align: center;
+                    }
+                }
+    }
+}

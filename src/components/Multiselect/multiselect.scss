@@ -1,0 +1,85 @@
+.MultiselectMobilemodal {
+    color: var(--theme-head-black);
+    cursor: pointer;
+    text-decoration: none;
+
+    .modal-content {
+        border-radius: 15px;
+
+        .modal-body {
+            .btn-done {
+                margin: 0 auto;
+                text-align: center;
+                display: block;
+                margin-top: 32px;
+            }
+        }
+    }
+}
+
+.MultiselectMobilemodal {
+    .modal-content {
+        .modal-body {
+            .modal-checkbox {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                .option-item {
+                    .round-checkbox {
+                        margin: 6px;
+
+                        label {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        label input[type="checkbox"] {
+                            display: none;
+                        }
+
+                        label input[type="checkbox"]+.card-body {
+                            // display: flex;
+                            // align-items: center;
+                            display: inline-block;
+                            padding: 5px 10px;
+                            justify-content: center;
+                            border-radius: 3px;
+                            word-wrap: break-word;
+                            margin-bottom: 16px;
+                            border: 1px solid var(--theme-grey);
+                            background-color: var(--theme-white);
+                            color: #555;
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 19.5px;
+                            font-family: var(--theme-primary-font);
+                            min-width: 72px;
+                            text-align: center;
+                            border-radius: 24px;
+                            cursor: pointer;
+                        }
+
+                        label input[type="checkbox"]:checked+.card-body {
+                            background-color: var(--theme-TintLight);
+                            border-color: var(--theme-thunder);
+                            color: var(--theme-head-black);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.Salary_questionsoption {
+    .Question {
+        .card-body {
+            &>span {
+                font-size: 14px;
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+@import '../../assets/scss/variables';
+.custom-phone-input{
+    select{
+        background-position: right 0.5rem center;
+        background-repeat: no-repeat;
+        background-size: 1.5em 1.5em;
+        padding-right: 2.5rem;
+        background-image:url('../../assets/images/angle-down.svg');
+    }
+    .dialcode{
+        max-width:100px;
+    }
+    &.form-group{
+        text-align: left;
+        .form-control {
+            border-radius: 0;
+            background-color: transparent;
+            border:0;
+            border-bottom: 1px solid #FFFFFF;
+            padding-right: 2.5rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left:0;
+            line-height: 1.5rem;
+            font-size:13px;
+            font-weight:300;
+            font-family: var(--theme-primary-font);
+            outline: none;
+            -webkit-box-shadow:none;
+            box-shadow:none;
+            color: #FFFFFF;
+            margin:0;
+            &>option{
+                color:$black;
+            }
+            &::placeholder{
+                color:var(--theme-white);
+            }
+        }
+        .input-block{
+            margin-bottom:24px;
+        }
+        &.has-error{ 
+            .form-control{
+                border-bottom-color: var(--theme-hotPink);
+            }
+        }
+        .error{
+            color: var(--theme-hotPink);
+            display: block;
+            font-family: var(--theme-secondary-font);
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 15.4px;
+            margin-top: 6px;
+        }
+    }
+
+}

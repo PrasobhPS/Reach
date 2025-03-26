@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreach=self.webpackChunkreach||[]).push([[2311],{82311:(e,c,r)=>{r.r(c),r.d(c,{default:()=>n});r(65043);var a=r(70579);const n=function(){return(0,a.jsx)("div",{children:"NoticeBoard"})}}}]);
+//# sourceMappingURL=2311.3c78655c.chunk.js.map

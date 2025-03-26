@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/12.e6b527e0.chunk.js","mappings":"mJAMA,QAJA,WACE,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,SACd,C","sources":["pages/Clubs.tsx"],"sourcesContent":["import React from \"react\";\n\nfunction Clubs() {\n  return <div>Clubs</div>;\n}\n\nexport default Clubs;\n"],"names":["_jsx","children"],"sourceRoot":""}

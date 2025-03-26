@@ -1,0 +1,105 @@
+@import '../../assets/scss/variables';
+
+.custom-card-box {
+    position: relative;
+
+    &.card-theme {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        .card-image {
+            &>img {
+                border-radius: 8px 0px 0px 8px;
+                object-fit: cover;
+
+
+            }
+
+
+        }
+
+        .content-box {
+            max-height: 100%;
+            border-radius: 0px 8px 8px 0px;
+        }
+    }
+
+    &.primary {
+        .card-image {
+            &>img {
+                border-radius: 8px 8px 0px 0px;
+                object-fit: cover;
+            }
+
+            .setHeight {
+                max-height: 180px !important;
+            }
+        }
+
+        .content-box {
+            border-radius: 0px 0px 8px 8px;
+            background-color: $white;
+            padding: 24px 27px 62px 28px;
+
+            @media only screen and (max-width:767px) {
+                margin-bottom: 32px;
+            }
+
+            .customHeading {
+                color: $head-black;
+                font-size: 32px;
+                line-height: 38px;
+                margin-bottom: 16px;
+            }
+
+            .sub-captiontext {
+                font-weight: 400;
+                font-size: 16px;
+                font-family: var(--theme-primary-font);
+                line-height: 20px;
+                max-width: 288px;
+                margin: 0 auto;
+                text-align: center;
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    &.secondary {
+        .card-image {
+            &>img {
+                border-radius: 0px;
+                object-fit: cover;
+            }
+        }
+
+        .content-box {
+            background-color: transparent;
+            padding-top: 16px;
+
+            @media only screen and (max-width:767px) {
+                margin-bottom: 32px;
+            }
+
+            .customHeading {
+                color: $oil;
+                font-size: 22px;
+                font-family: var(--theme-secondary-font);
+                line-height: 26px;
+                margin-bottom: 8px;
+                text-align:start;
+            }
+
+            .sub-captiontext {
+                font-weight: 300;
+                font-size: 16px;
+                font-family: var(--theme-primary-font);
+                line-height: 20px;
+                max-width: 420px;
+                text-align:start;
+                color: $text-gray;
+            }
+        }
+    }
+}

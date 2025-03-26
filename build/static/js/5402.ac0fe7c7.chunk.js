@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreach=self.webpackChunkreach||[]).push([[5402],{45402:(e,n,t)=>{t.r(n),t.d(n,{default:()=>s});var i=t(65043),o=t(73216),r=t(70579);const s=function(){const e=(0,o.Zp)();return(0,i.useEffect)((()=>{if((()=>{const e=navigator.userAgent||navigator.vendor;return/android|iphone|ipad|ipod/i.test(e)})()){const n="myapp://profile";window.location.href=n,setTimeout((()=>{e("/profile")}),2e3)}else e("/profile")}),[e]),(0,r.jsx)("div",{children:"Connecting to Stripe..."})}}}]);
+//# sourceMappingURL=5402.ac0fe7c7.chunk.js.map

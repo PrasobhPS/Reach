@@ -1,0 +1,46 @@
+.video-slider {
+  position: relative;
+}
+
+.video-slider .slides-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-slider .nav-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.video-slider .prev,
+.video-slider .next {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.video-slider .videos {
+  display: flex;
+  transition: transform 0.5s ease;
+  padding-top: 40px; /* Adjust padding to create space below the buttons */
+}
+
+.video-slider .video-slide {
+  width: 100%;
+  padding: 0 5px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.video-slider .video-slide video {
+  width: 100%;
+  height: auto;
+}
+
+.video-slider .text {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 10px;
+}

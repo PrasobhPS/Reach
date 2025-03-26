@@ -1,0 +1,48 @@
+.half-window-image-box {
+  .video-box {
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+
+    video {
+      position: absolute;
+      object-fit: cover;
+      object-fit: cover;
+      object-position: center;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .image-box {
+    position: relative;
+
+    .content-box {
+      position: absolute;
+      left: 0;
+      right: 0;
+      text-align: center;
+      bottom: 10px;
+
+      h2 {
+        color: #fff;
+        margin: 0 0 10px;
+      }
+
+      p {
+        font-family: var(--theme-primary-font);
+        font-weight: 300;
+        line-height: 21.6px;
+
+        @media(min-width: 992px) {
+          max-width: 60%;
+          margin: 0px auto 30px;
+        }
+
+        margin: 0 0 30px;
+        line-height: 24px;
+      }
+    }
+  }
+}

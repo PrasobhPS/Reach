@@ -1,0 +1,2887 @@
+.cruz-register {
+  &.cruz-registerparent {
+    padding-top: 174px;
+    @media screen  and (max-width:767px){
+      padding-top:105px;
+    }
+    .cruz-registerinner-content {
+      padding-left: 145px;
+
+      @media only screen and (max-width:1199px) {
+        padding-left: 0px;
+      }
+
+      .page-path {
+        padding-bottom: 24px;
+      }
+
+      .employer-register {
+        max-width: 571px;
+        margin-top: 36px;
+
+        @media only screen and (max-width: 1025px) {
+          max-width: 100%;
+        }
+
+        h1 {
+          &.customHeading {
+            color: var(--theme-white);
+            font-size: 40px;
+            text-align: center;
+            letter-spacing: 2px;
+            line-height: 40px;
+            padding-left: 33px;
+            padding-right: 37px;
+
+            @media only screen and (max-width:767px) {
+              font-size: 21px;
+              line-height: 25.2px;
+              letter-spacing: 2px;
+            }
+          }
+        }
+
+        p {
+          &.text-para {
+            font-size: 16px;
+            line-height: 20.8px;
+            font-family: var(--theme-primary-font);
+            font-weight: 300;
+            color: var(--theme-white);
+            max-width: 320px;
+            margin: 0 auto;
+            padding-top: 14px;
+            text-align: center;
+            letter-spacing: 1px;
+            padding-bottom: 30px;
+
+            @media only screen and (max-width:767px) {
+              font-size: 12px;
+              line-height: 15.6px;
+            }
+          }
+        }
+      }
+
+      .step-verification {
+        max-width: 571px;
+        border-bottom: 1px solid var(--theme-hotPink);
+        padding-bottom: 6px;
+
+        &>span {
+          font-family: var(--theme-secondary-font);
+          font-weight: 500;
+          font-size: 13px;
+          text-transform: uppercase;
+          line-height: 16.9px;
+          letter-spacing: 1px;
+          color: var(--theme-white);
+          margin-bottom: 6px;
+        }
+      }
+
+      .waiting-page {
+        max-width: 571px;
+        margin: inherit;
+
+        .contents-page {
+          text-align: center;
+          margin-top: 60px;
+
+          .Wait-section {
+            h2 {
+              &.customHeading {
+                font-size: 32px;
+                line-height: 35.2px;
+                font-weight: 600;
+                text-align: center;
+                color: var(--theme-white);
+                margin-bottom: 13px;
+              }
+            }
+
+            .details {
+              padding-bottom: 31px;
+
+              &>span {
+                font-family: var(--theme-primary-font);
+                font-weight: 300;
+                line-height: 19.2px;
+                font-size: 16px;
+                color: var(--theme-white);
+              }
+            }
+          }
+        }
+
+        .page-innerLoader {
+          position: relative;
+          padding-bottom: 140px;
+
+          .spinner-border {
+            --bs-spinner-width: auto;
+            --bs-spinner-height: auto;
+            border: 0;
+            width: 176px;
+
+            &>img {
+              width: 176px;
+              object-fit: cover;
+            }
+          }
+
+          .content-txt {
+            position: absolute;
+            top: 64px;
+            left: 0;
+            right: 0;
+
+            &>span {
+              font-size: 21px;
+              line-height: 25.2px;
+              letter-spacing: 1px;
+              font-weight: 600;
+              color: var(--theme-white);
+              font-family: var(--theme-secondary-font);
+            }
+          }
+        }
+      }
+
+      .success-message {
+        padding-bottom: 231px;
+        max-width: 571px;
+        margin: inherit;
+
+        @media only screen and (min-width:200px) and (max-width:767px) {
+          padding-bottom: 263px;
+        }
+
+        @media only screen and (min-width:768px) and (max-width:1199px) {
+          padding-bottom: 0px;
+        }
+
+        h2 {
+          &.customHeading {
+            font-size: 32px;
+            line-height: 35.2px;
+            font-weight: 600;
+            text-align: center;
+            color: var(--theme-ludicrousGreen);
+            margin-bottom: 13px;
+          }
+        }
+
+        &>p {
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 19.2px;
+          font-family: var(--theme-primary-font);
+          text-align: center;
+          color: var(--theme-white);
+        }
+      }
+
+      .sorry-message {
+        padding-bottom: 231px;
+        max-width: 571px;
+        margin: inherit;
+
+        @media only screen and (min-width:200px) and (max-width:767px) {
+          padding-bottom: 263px;
+        }
+
+        @media only screen and (min-width:768px) and (max-width:1199px) {
+          padding-bottom: 0px;
+        }
+
+        h2 {
+          &.customHeading {
+            font-size: 32px;
+            line-height: 35.2px;
+            font-weight: 600;
+            text-align: center;
+            color: var(--theme-white);
+            margin-bottom: 13px;
+          }
+        }
+
+        &>p {
+          font-size: 16px;
+          font-weight: 300;
+          text-align: center;
+          line-height: 19.2px;
+          font-family: var(--theme-primary-font);
+          text-align: center;
+          color: var(--theme-white);
+        }
+      }
+    }
+  }
+}
+
+.PostJob-parent {
+  padding-top: 168px;
+  padding-bottom: 160px;
+
+  .Employeeprofile-page {
+    @media only screen and (max-width:767px) {
+      padding-top: 0px;
+    }
+
+    .inner-bodypage {
+      padding-bottom: 0px;
+      padding-top: 0px;
+    }
+  }
+
+  @media only screen and (max-width:767px) {
+    padding-top: 128px;
+    padding-bottom: 86px;
+  }
+
+  @media only screen and (max-width: 1025px) {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  &>.container {
+    max-width: 1440px;
+
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+
+  .page-path {
+    display: flex;
+    align-items: center;
+    padding-bottom: 28px;
+
+    .parent-direction {
+      &>label {
+        font-weight: 300;
+        color: var(--theme-white);
+        font-size: 13px;
+        font-family: var(--theme-primary-font);
+        line-height: 16.9px;
+      }
+    }
+
+    .child-direction {
+      &>label {
+        font-weight: 300;
+        color: var(--theme-grey);
+        font-size: 13px;
+        font-family: var(--theme-primary-font);
+        line-height: 16.9px;
+      }
+    }
+
+    .direction-arrow {
+      color: var(--theme-hotPink);
+      padding-left: 14px;
+      font-size: 14px;
+      padding-right: 14px;
+    }
+  }
+}
+
+.viewProfile {
+  padding-top: 140px;
+  padding-bottom: 136px;
+
+  &.employer-profileparent {
+    .center-layout {
+      margin-left: 56px;
+
+      @media only screen and (max-width:767px) {
+        margin-left: 0px;
+        width: 100%;
+      }
+    }
+
+    .page-path {
+      display: flex;
+      align-items: center;
+      padding-bottom: 22px;
+      padding-top: 33px;
+
+      @media screen and (max-width:767px) {
+        padding-top: 22px;
+      }
+
+      .parent-direction {
+        &>label {
+          font-weight: 300;
+          color: var(--theme-white);
+          font-size: 13px;
+          font-family: var(--theme-primary-font);
+          line-height: 16.9px;
+        }
+      }
+
+      .child-direction {
+        &>label {
+          font-weight: 300;
+          color: var(--theme-grey);
+          font-size: 13px;
+          font-family: var(--theme-primary-font);
+          line-height: 16.9px;
+        }
+      }
+
+      .direction-arrow {
+        color: var(--theme-hotPink);
+        padding-left: 14px;
+        font-size: 14px;
+        padding-right: 14px;
+      }
+    }
+
+    .cruz-contents {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      position: relative;
+
+      .cruz-custom {
+        padding-top: 43px;
+      }
+
+      .layout-action {
+        padding-top: 43px;
+        padding-right: 54px;
+      }
+    }
+
+    &.employer-profileparent {
+      .cruz-contents {
+        .cruz-custom {
+          @media screen and (max-width:767px) {
+            padding-top: 0px;
+          }
+
+          .list-accordion {
+            @media screen and (max-width:767px) {
+              margin-bottom: 0px;
+            }
+          }
+        }
+      }
+    }
+
+    &.EmployerViewsJobs-section {
+      .cruz-layoutChild-section {
+        @media only screen and (min-width:1090px) and (max-width:1200px) {
+          flex-wrap: nowrap;
+        }
+
+        .center-layout {
+          @media only screen and (min-width:1090px) and (max-width:1199px) {
+            margin-left: 0;
+
+            .profile-section {
+              width: 100%;
+              max-width: 100%;
+
+              .view-profile-section {
+                width: 480px;
+                max-width: 480px;
+              }
+            }
+          }
+        }
+
+        .layout-action {
+          padding-left: 15px;
+          padding-right: 0px;
+        }
+      }
+    }
+  }
+
+  &.view-profile-componentPage {
+    @media screen and (max-width:767px) {
+      padding-top: 124px;
+
+      .center-layout {
+        .page-path {
+          display: none;
+        }
+      }
+
+      .cruz-custom {
+        padding-bottom: 20px;
+      }
+    }
+
+    .profile-componentPage {
+      padding-left: 17px;
+      padding-right: 17px;
+      margin-bottom: 20px;
+
+      .findjobs {
+        &>span {
+          font-size: 13px;
+          font-weight: 300;
+          color: var(--theme-white);
+          font-family: var(--theme-primary-font);
+          line-height: 16.9px;
+        }
+
+        .direction-arrow {
+          color: var(--theme-hotPink);
+          margin-left: 14px;
+        }
+      }
+
+      .count-employeecount {
+        &>p {
+          font-size: 16px;
+          font-weight: 300;
+          color: var(--theme-grey);
+          font-family: var(--theme-primary-font);
+          line-height: 20.8px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.cardcommonparent {
+  .cruz-contents {
+    .profile-section {
+      margin: inherit;
+      margin-left: 54px;
+      width: 574px;
+      padding-top: 30px;
+
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        margin-left: 0px;
+        width: 100%;
+        padding-top: 0px;
+      }
+    }
+  }
+}
+
+.cruz-contents {
+  padding-top: 179px;
+  padding-bottom: 136px;
+
+  @media only screen and (min-width:200px) and (max-width:767px) {
+    padding-top: 120px;
+  }
+
+  .container-fluid {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width:1026px) and (max-width:1271px) {
+    .campaigncard-parent {
+      width: 100%;
+    }
+  }
+
+  .cruz-layoutChild-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    // @media screen and (max-width:1277px) {
+    //   flex-wrap: nowrap;
+    //   // display:block;
+    // }
+
+    @media only screen and (min-width: 200px) and (max-width: 910px) {
+      flex-wrap: wrap;
+    }
+
+    .employer-campaign-list {
+      padding-left: 120px;
+      padding-right: 130px;
+      @media only screen and (min-width:1278px) and (max-width:1366px) {
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+      width: 100%;
+      @media screen and (max-width: 767px) {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+
+      @media only screen and (min-width:768px) and (max-width:1024px) {
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+    }
+  }
+  .cruz-sidebar {
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 9px;
+    padding-top: 6px;
+
+    .button-style {
+      width: 100%;
+      margin-bottom: 13px;
+    }
+
+    .sidebar-navitems {
+      padding-left: 0;
+
+      &>li {
+        list-style: none;
+        text-align: justify;
+        padding: 12px 0px 12px 0px;
+
+        &.active {
+          padding-left: 8px;
+          border-radius: 4px;
+          background-color: var(--theme-active-nav);
+        }
+
+        .navLink {
+          font-weight: 300;
+          color: var(--theme-white);
+          text-decoration: none;
+          line-height: 20.8px;
+          font-family: var(--theme-primary-font);
+        }
+      }
+    }
+  }
+
+  .profile-section {
+    margin: 0 auto;
+    display: block;
+    max-width: 574px;
+    width: 574px;
+
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    @media only screen and (min-width:768px) and (max-width:1025px) {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  .view-profile-section {
+    background-color: var(--theme-Mid-Tint);
+    max-width: 574px;
+    border-radius: 8px;
+    padding: 26px 17px 26px 17px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      max-width: 100%;
+      padding-left: 17px;
+      padding-right: 15px;
+    }
+
+    .profile-box {
+      .profile-box-header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: base-line;
+        -ms-flex-align: base-line;
+        align-items: base-line;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-bottom: 16px;
+
+        .profile-name {
+          h1 {
+            &.customHeading {
+              font-size: 22px;
+              line-height: 26.4px;
+              color: var(--theme-hotPink);
+            }
+          }
+        }
+
+        .TheyLikeYou {
+          padding: 10px;
+          border-radius: 48px;
+          background-color: var(--theme-thunder);
+
+          &>span {
+            font-family: var(--theme-secondary-font);
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 11px;
+            line-height: 14.3px;
+            text-align: right;
+            color: var(--theme-ludicrousGreen);
+            cursor: pointer;
+          }
+        }
+
+        .profile-status {
+          &>span {
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--theme-hotPink);
+            line-height: 14.3px;
+            text-transform: uppercase;
+            font-family: var(--theme-secondary-font);
+            letter-spacing: 0.55px;
+            position: relative;
+            bottom: 10px;
+          }
+
+          .Matched {
+            width: 96px;
+            padding: 10px 16px 10px 16px;
+            background-color: var(--theme-thunder);
+            border-radius: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &>span {
+              font-weight: 500;
+              line-height: 14.3px;
+              font-family: var(--theme-secondary-font);
+              letter-spacing: 1px;
+              font-size: 11px;
+              color: var(--theme-ludicrousGreen);
+            }
+          }
+        }
+      }
+
+      .profile-box-body {
+        .quick-details {
+          padding-left: 0;
+          display: flex;
+          align-items: center;
+          margin-bottom: 16px;
+
+          &>li {
+            list-style: none;
+            padding: 4px 13px 4px 13px;
+            border-radius: 24px;
+            background-color: var(--theme-white);
+            font-size: 12px;
+            line-height: 15.6px;
+            font-weight: 300;
+            font-family: var(--theme-primary-font);
+            color: var(--theme-black);
+            margin-right: 8px;
+          }
+        }
+
+        .profile-overview {
+          &>p {
+            font-size: 18px;
+            line-height: 21.6px;
+            font-weight: 300;
+            font-family: var(--theme-primary-font);
+            color: var(--theme-thunder);
+          }
+        }
+      }
+    }
+
+    .custom-slider-wrapper {
+      .slick-slider {
+        padding-top: 0px;
+
+        .item {
+          padding-right: 8px;
+          padding-left: 0px;
+          margin-bottom: 8px;
+
+          &:focus-visible {
+            outline: none;
+          }
+        }
+
+        .slick-arrow {
+          display: none !important;
+        }
+      }
+    }
+
+    .employer-custom-card {
+      padding: 16px 16px 24px 16px;
+      background-color: var(--theme-white);
+      border-radius: 8px;
+      margin-bottom: 17px;
+      margin-top: 16px;
+
+      .employer-custom-card-title {
+        h1 {
+          &.customHeading {
+            font-size: 11px;
+            line-height: 14.3px;
+            text-transform: uppercase;
+            font-weight: 500;
+            margin-bottom: 11px;
+            color: var(--theme-bordergray);
+            font-family: var(--theme-secondary-font);
+          }
+        }
+      }
+
+      .employer-custom-card-body {
+        .item-box {
+          margin-bottom: 6px;
+
+          &>label {
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 16.9px;
+            font-family: var(--theme-primary-font);
+            width: 120px;
+            word-wrap: break-word;
+          }
+
+          &>span {
+            font-weight: 300;
+            font-size: 13px;
+            color: var(--theme-head-black);
+            line-height: 16.9px;
+            font-family: var(--theme-primary-font);
+          }
+        }
+
+        .para {
+          line-height: 15.6px;
+          font-size: 12px;
+          font-weight: 300;
+          font-family: var(--theme-primary-font);
+        }
+      }
+    }
+  }
+
+  .layout-action {
+    padding-right: 48px;
+
+    // width:100%;
+    @media screen and (max-width: 1025px) {
+      width: 100%;
+      padding-right: 0px;
+    }
+
+    .action-options {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 auto;
+      text-align: center;
+      max-width: 312px;
+
+      @media screen and (max-width: 727px) {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 9px;
+        background-color: var(--theme-thunder);
+        border-radius: 37.43px;
+        z-index: 1;
+        max-width: 85%;
+
+        &.active-menu {
+          // right: 55px;
+          // max-width: 67%;
+          height: 60px;
+        }
+      }
+
+      a {
+        &>img {
+          padding-right: 23px;
+
+          @media screen and (max-width: 767px) {
+            width: 65.99px;
+            padding: 14px;
+          }
+        }
+      }
+    }
+
+    .views {
+      margin: 0 auto;
+      margin-top: 20px;
+      text-align: center;
+
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
+
+      &>p {
+        font-size: 16px;
+        color: var(--theme-white);
+        font-weight: 300;
+        font-family: var(--theme-primary-font);
+        line-height: 20.8px;
+      }
+    }
+  }
+}
+  .dropdown-menu{
+      .dropdown-item{
+        position: relative;
+        .button-reverse{
+          &>span{
+            font-family:var(--theme-primary-font);
+            font-weight:300;
+            font-size:12px;
+            text-transform:capitalize;
+            line-height:15.4px;
+          }
+        }
+      }
+  }
+.cruz-page {
+  &.cruz-homepage {
+    padding-bottom: 120px;
+
+    @media screen and (max-width:767px) {
+      padding-bottom: 57px;
+    }
+
+    .hero-section {
+      @media screen and (max-width:767px) {
+        display: none;
+      }
+    }
+
+    &.cruz-withMenuHome {
+      position: relative;
+
+      .hero-section {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        visibility: visible;
+
+        @media screen and (max-width:767px) {
+          visibility: hidden;
+        }
+      }
+
+      .cruz-contents {
+        .cruz-layoutChild-section {
+          .inner-child {
+            .cruz-headinghomepage {
+              position: relative;
+
+              h1 {
+                &.customHeading {
+                  padding-top: 174px;
+
+                  @media screen and (max-width:767px) {
+                    padding-top: 0px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .cruz-contents {
+      padding-bottom: 0;
+      padding-top: 0;
+
+      @media screen and (max-width:767px) {
+        padding-top: 130px;
+      }
+    }
+
+    .cruz-custom {
+      .list-accordion {
+        // &.lastChild{
+        //    .list-items {
+        //     &>li{
+        //       &:last-child{
+        //          &>a{
+        //           border:0;
+        //          }
+        //       }
+        //     }
+        //    }
+        // }
+        .list-items {
+          &>li {
+            .personal-caption {
+              display: block;
+              text-transform: uppercase;
+              color: var(--theme-hotPink);
+              border-bottom: 1px solid var(--theme-hotPink);
+              font-size: 16px;
+              line-height: 20.8px;
+              letter-spacing: 1px;
+              font-weight: 300;
+              position: relative;
+              .collpasemenutwo{
+                  position:absolute;
+                  right:0;
+              }
+            }
+            .BUSINESS-caption {
+              display: block;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              color: var(--theme-hotPink);
+              border-bottom: 1px solid var(--theme-ludicrousGreen);
+              color: var(--theme-ludicrousGreen);
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              .collpasemenutwo{
+                display:none;
+              }
+              .count{
+                display:none;
+              }
+            }
+            .NewCampaign {
+              &.new-campaignbox {
+                background-color: var(--theme-white);
+                color: var(--theme-head-black);
+                border-radius: 3px;
+                padding:15px 28px 15px 28px;
+                margin-top: 21px;
+                text-align: center;
+                position: relative;
+                font-family:var(--theme-secondary-font);
+                line-height:14.3px;
+                font-weight:500;
+                font-size:11px;
+                text-transform:uppercase;
+                &:after {
+                  content: "";
+                  background-image: url('../images/angle-dropdown.svg');
+                  display: inline-block;
+                  width: 10px;
+                  height: 10px;
+                  background-size: 10px;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  margin-left: 5px;
+                  transform: rotate(267deg);
+                  transition: all ease 300ms;
+                  border: 0;
+                  vertical-align: baseline;
+                }
+              }
+
+              &.newcampaign-menuoption {
+                background-color: var(--theme-white);
+                color: var(--theme-head-black);
+                border-radius: 3px;
+                padding: 11px 28px 12px 28px;
+                margin-top: 21px;
+                text-align: center;
+                position: relative;
+
+                &:after {
+                  content: "";
+                  background-image: url('../images/angle-dropdown.svg');
+                  display: inline-block;
+                  width: 10px;
+                  height: 10px;
+                  background-size: 10px;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  margin-left: 5px;
+                  transform: rotate(267deg);
+                  transition: all ease 300ms;
+                  border: 0;
+                  vertical-align: baseline;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .cruz-headinghomepage {
+      max-width: 686px;
+      margin: 0 auto;
+      padding-bottom: 40px;
+
+      h1 {
+        &.customHeading {
+          line-height: 56px;
+          font-size: 56px;
+          letter-spacing: 1px;
+          font-weight: 600;
+          text-align: center;
+
+          @media screen and (max-width:767px) {
+            font-size: 40px;
+            line-height: 36px;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .container {
+      padding-top: 176px;
+    }
+
+    .inner-content {
+      max-width: 686px;
+      margin: 0 auto;
+      padding-bottom: 10px;
+
+      h1 {
+        &.customHeading {
+          line-height: 56px;
+          font-size: 56px;
+          letter-spacing: 1px;
+          font-weight: 600;
+
+          @media only screen and (max-width:767px) {
+            font-size: 40px;
+            line-height: 36px;
+          }
+        }
+      }
+    }
+
+    .inner-child {
+      max-width: 912px;
+      margin: 0 auto;
+
+      .membership-cardbox {
+        .card-image {
+          &>img {
+            width: 100%;
+          }
+        }
+      }
+
+      .custom-card-box {
+        padding-right: 30px;
+
+        @media only screen and (max-width: 1025px) {
+          padding-right: 17px;
+          padding-left: 17px;
+        }
+      }
+
+      .memberslooking-card {
+        .custom-card-box {
+          padding-right: 0px;
+          padding-left: 24px;
+
+          @media only screen and (max-width: 1025px) {
+            padding-right: 17px;
+            padding-left: 17px;
+          }
+        }
+      }
+    }
+
+    .cruz-layoutChild-section {
+      width: 100%;
+
+      &.cruz-customdesign {
+        width: 75%;
+
+        @media only screen and (min-width:200px) and (max-width:767px) {
+          width: 100%;
+        }
+
+        @media only screen and (min-width:768px) and (max-width:1025px) {
+          flex: 0 0 auto;
+          width: 66.66666667%;
+
+          .Find-Jobcard {
+            width: 100%;
+            margin-bottom: 16px;
+          }
+
+          .memberslooking-card {
+            width: 100%;
+            margin-bottom: 16px;
+
+            .custom-card-box {
+              padding-left: 19px;
+              padding-right: 19px;
+            }
+          }
+        }
+
+        @media only screen and (min-width:1026px) and (max-width:1199px) {
+          flex: 0 0 auto;
+          width: 66.66666667%;
+        }
+
+        .inner-child {
+          .cruz-headinghomepage {
+            h1 {
+              &.customHeading {
+                font-size: 40px;
+                line-height: 40px;
+                letter-spacing: 1px;
+                font-weight: 600;
+                color: var(--theme-white);
+              }
+            }
+
+            .red-text {
+              // color: var(--theme-white);
+              border-bottom: 1px solid var(--theme-white);
+            }
+          }
+        }
+
+        .Find-Jobcard {
+          .custom-card-box {
+            .card-image {
+              border-bottom: 10px solid var(--theme-hotPink);
+            }
+          }
+        }
+
+        .memberslooking-card {
+          .custom-card-box {
+            .card-image {
+              border-bottom: 10px solid var(--theme-ludicrousGreen);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//employee employer mymaches pages
+.myMatches {
+  padding-left: 120px;
+  width: 100%;
+
+  @media only screen and (max-width: 1025px) {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .innerHeading {
+    padding-top: 0px;
+    padding-bottom: 43px;
+
+    h2 {
+      &.customHeading {
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: var(--theme-white);
+
+        @media only screen and (max-width: 767px) {
+          font-size: 18px;
+          line-height: 21.6px;
+        }
+      }
+
+      &>span {
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: var(--theme-hotPink);
+
+        @media only screen and (max-width: 767px) {
+          font-size: 18px;
+          line-height: 21.6px;
+        }
+      }
+    }
+  }
+
+  .innerbody {
+    table {
+      background-color: transparent;
+
+      &.match-result-table {
+        background-color: transparent;
+        max-width: 809px;
+
+        tbody {
+          tr {
+            &:first-child {
+              border-top: 1px solid var(--theme-grey);
+
+              .profile-status {
+                padding-top: 0px;
+              }
+            }
+
+            &>td {
+              background-color: transparent;
+              padding: 24px 0px 24px 0px;
+              border-top: 1px solid var(--theme-grey);
+
+              &:nth-child(2) {
+                vertical-align: middle;
+                padding: 0;
+              }
+
+              @media only screen and (max-width: 767px) {
+                padding: 15px 0px 15px 0px;
+                vertical-align: middle;
+              }
+
+              .profile-message {
+                .profile-details {
+                  padding-right: 30px;
+
+                  @media only screen and (max-width: 767px) {
+                    padding-right: 10px;
+                  }
+
+                  &>a {
+                    cursor: pointer;
+
+                    &>img {
+                      width: 40px;
+                    }
+                  }
+                }
+              }
+
+              .profile-status {
+                display: flex;
+                align-items: center;
+                padding-top: 8px;
+
+                @media only screen and (max-width: 767px) {
+                  padding-top: 0px;
+                }
+
+                .profile-check {
+                  color: var(--theme-ludicrousGreen);
+                  font-size: 20px;
+
+                  @media only screen and (max-width: 767px) {
+                    font-size: 12px;
+                  }
+                }
+
+                .profile-image {
+                  padding-left: 27px;
+                  width: 76px;
+                  height: 76px;
+
+                  &>img {
+                    object-fit: cover;
+                    width: 76px;
+                    height: 76px;
+                    border-radius: 50%;
+                  }
+
+                  @media only screen and (max-width: 767px) {
+                    width: 44px;
+                    height: 44px;
+                    padding-left: 15px;
+
+                    &>img {
+                      object-fit: cover;
+                      width: 44px;
+                      height: 44px;
+                    }
+                  }
+                }
+
+                .profile-details {
+                  padding-left: 46px;
+
+                  @media only screen and (max-width: 767px) {
+                    padding-left: 25px;
+                  }
+
+                  h5 {
+                    font-size: 16px;
+                    color: var(--theme-white);
+                    font-weight: 300;
+                    font-family: var(--theme-primary-font);
+                    line-height: 20.8px;
+                    margin-bottom: 0px;
+                  }
+
+                  .emp-membername {
+                    &>span {
+                      font-family: var(--theme-primary-font);
+                      font-size: 13px;
+                      line-height: 16.9px;
+                      font-weight: 300;
+                      color: var(--theme-grey);
+                    }
+                  }
+                }
+              }
+
+              .profile-message {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-left:10px;
+                @media only screen and (max-width: 767px) {
+                  padding-top: 3px !important;
+                }
+
+                .message {
+                  padding-right: 60px;
+
+                  @media only screen and (max-width: 767px) {
+                    padding-right: 0px !important;
+                  }
+
+                  &>h5 {
+                    font-size: 13px;
+                    font-family: var(--theme-primary-font);
+                    line-height: 16.9px;
+                    color: var(--theme-grey);
+                  }
+                }
+
+                .arrow-collapse {
+                  @media only screen and (max-width: 767px) {
+                    padding-left: 15px;
+                    font-size: 10px;
+                    cursor: pointer;
+                  }
+
+                  font-size: 20px;
+                  color: var(--theme-hotPink);
+
+                  .link-action {
+                    height: 70px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    border: 0;
+                    box-shadow: none;
+                    background-color: transparent;
+                    color: var(--theme-hotPink);
+                    font-size: 16px;
+                    width: 30px;
+
+                    &.btn-linkemail {
+                      width: 130px;
+                      height: 130px;
+
+                      @media screen and (max-width:767px) {
+                        height: 70px;
+                        width: 30px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//employee Dashboard
+.employee-dashboard {
+  .cruz-contents {
+    padding-top: 179px;
+
+    @media only screen and (max-width:767px) {
+      padding-top: 154px;
+    }
+  }
+
+  .dashboard-employee {
+    padding-left: 119px;
+    width: 100%;
+
+    @media only screen and (max-width: 1199px) {
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+
+    .page-path {
+      padding-bottom: 9px;
+
+      @media only screen and (max-width:767px) {
+        position: absolute;
+        top: 112px;
+      }
+
+      @media only screen and (min-width:768px) and (max-width:1199px) {
+        position: absolute;
+        top: 132px;
+      }
+
+    }
+
+    .dashboard-details {
+      .head-details {
+        position: relative;
+        padding-bottom: 30px;
+
+        @media only screen and (max-width: 767px) {
+          padding-bottom: 21px;
+        }
+
+        h2 {
+          &.cutsomHeading {
+            font-size: 32px;
+            color: var(--theme-white);
+            font-weight: 600;
+            font-family: var(--theme-secondary-font);
+            line-height: 38.4px;
+            text-transform: uppercase;
+
+            @media only screen and (max-width: 767px) {
+              font-size: 21px;
+              line-height: 25.2px;
+              letter-spacing: 1px;
+            }
+          }
+        }
+      }
+
+      .New-Jobs-view {
+        background-color: #d7e0e51a;
+        padding: 41px 66px 34px 41px;
+        max-width: 808px;
+        border-radius: 8px;
+
+        @media only screen and (max-width: 767px) {
+          padding: 24px 0px 24px 0px;
+        }
+
+        @media only screen and (max-width: 1199px) {
+          margin: 0 auto;
+        }
+
+        .grid-gallery {
+          display: inline-flex;
+          position: relative;
+          align-items: center;
+          justify-content: center;
+
+          // display: grid;
+          // grid-template-columns: repeat(3, 0fr);
+          // gap: 15px;
+          @media only screen and (max-width: 767px) {
+            display: flex;
+            width: 100%;
+          }
+
+          @media only screen and (min-width: 768px) and (max-width: 1025px) {
+            padding-left: calc(100% - 50% - 158px);
+            margin-bottom: 20px;
+            max-width: 100%;
+            // width: 100%;
+          }
+          &.grid-single-image{
+            .grid{
+                width:134px;
+                border-radius:50%;
+                object-fit:cover;
+                height:134px;
+                &>img{
+                  width:100%;
+                  height:100%;
+                  object-fit:cover;
+                  border-radius:50%;
+                }
+            }
+          }
+          .grid {
+            width: 150px;
+            height: 134px;
+
+            @media only screen and (max-width: 767px) {
+              width: 50px;
+              height: 50px;
+            }
+
+            &>img {
+              width: 134px;
+              border-radius:50%;
+              object-fit: cover;
+              height: 130px;
+              @media only screen and (max-width: 767px) {
+                width: 44px;
+                height: 44px;
+                border-radius:50%;
+                object-fit: cover;
+              }
+            }
+
+            &:nth-child(1) {
+              flex: 1 1 auto;
+
+              @media only screen and (max-width: 767px) {
+                flex: 0 2 auto;
+              }
+            }
+
+            &:nth-child(2) {
+              flex: 1 1 auto;
+              position: absolute;
+            }
+
+            &:last-child {
+              flex: 1 1 auto;
+              position: sticky;
+
+              @media only screen and (max-width: 767px) {
+                flex: none;
+                position: sticky;
+              }
+            }
+          }
+
+          &.gridtwo-card {
+            .grid {
+              &:last-child {
+                flex: 1 1 auto;
+                position: absolute;
+                left: 50%;
+              }
+            }
+          }
+        }
+
+        .Jobs-viewDetails {
+          max-width: 399px;
+          padding-left: 60px;
+
+          @media only screen and (max-width: 1025px) {
+            max-width: 100%;
+            padding-left: 0px;
+            margin: 0 auto;
+            text-align: center;
+          }
+
+          .Matching {
+            font-size: 18px;
+            line-height: 21.6px;
+            padding-bottom: 16px;
+            font-weight: 300;
+            color: var(--theme-white);
+            font-family: var(--theme-primary-font);
+            margin-bottom: 0px;
+
+            &.matchlist {
+              label {
+                margin: 4px;
+                padding: 2px 10px 2px 10px;
+                color: var(--theme-head-black);
+                background-color: var(--theme-quickSilver);
+                border-radius: 25px;
+                font-size: 10px;
+              }
+            }
+          }
+
+          h2 {
+            &.customHeading {
+              padding-bottom: 16px;
+              font-size: 40px;
+              line-height: 40px;
+              letter-spacing: 1px;
+              color: var(--theme-white);
+              margin: 0 auto;
+              text-align: start;
+
+              @media only screen and (max-width: 1025px) {
+                text-align: center;
+              }
+
+              @media only screen and (max-width: 767px) {
+                font-size: 32px;
+                line-height: 35.2px;
+                font-weight: 600;
+                text-align: center;
+              }
+            }
+          }
+
+          .viewpost-btn {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+
+            @media only screen and (max-width: 1025px) {
+              justify-content: center;
+            }
+
+            .button-reverse {
+              max-width: 126px;
+              min-width: 126px;
+              background-color: transparent;
+
+              &>span {
+                color: var(--theme-white);
+                font-family: var(--theme-primary-font);
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 20.8px;
+                text-transform:capitalize;
+              }
+
+              .btn-icon {
+                color: var(--theme-hotPink);
+              }
+            }
+          }
+        }
+      }
+
+      .Recent-conversation {
+        padding-top: 54px;
+        max-width: 809px;
+
+        @media only screen and (max-width: 1199px) {
+          margin: 0 auto;
+        }
+
+        .heading-text {
+          h2 {
+            &.customHeading {
+              font-size: 22px;
+              font-weight: 600;
+              color: var(--theme-white);
+              line-height: 26.4px;
+            }
+          }
+        }
+
+        .action-link {
+          &>a {
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 16.9px;
+            text-decoration: none;
+            cursor: pointer;
+            color: var(--theme-white);
+            border-bottom: 1px solid var(--theme-hotPink);
+            font-family: var(--theme-primary-font);
+            padding-bottom: 2px;
+          }
+        }
+      }
+
+      .conversation-list {
+        margin-top: 19px;
+
+        .innerbody {
+          table {
+            background-color: transparent;
+
+            &.match-result-table {
+              background-color: transparent;
+              max-width: 809px;
+              margin: 0 auto;
+
+              tbody {
+                tr {
+                  &:first-child {
+                    border-top: 1px solid var(--theme-grey);
+
+                    .profile-message {
+                      padding-top: 20px;
+                    }
+
+                    .profile-status {
+                      padding-top: 0px;
+                    }
+                  }
+
+                  &>td {
+                    background-color: transparent;
+                    border-top: 1px solid var(--theme-grey);
+
+                    @media only screen and (max-width: 767px) {
+                      padding: 15px 0px 15px 0px;
+                    }
+
+                    .profile-status {
+                      display: flex;
+                      align-items: center;
+                      padding-top: 8px;
+
+                      @media only screen and (max-width: 767px) {
+                        padding-top: 0px;
+                      }
+
+                      .profile-check {
+                        color: var(--theme-ludicrousGreen);
+                        font-size: 20px;
+
+                        @media only screen and (max-width: 767px) {
+                          font-size: 12px;
+                        }
+                      }
+
+                      .profile-image {
+                        padding-left: 27px;
+                        width: 76px;
+                        height: 76px;
+
+                        &>img {
+                          object-fit: cover;
+                          width: 76px;
+                          height: 76px;
+                          border-radius: 50%;
+                        }
+
+                        @media only screen and (max-width: 767px) {
+                          width: 44px;
+                          height: 44px;
+                          padding-left: 15px;
+
+                          &>img {
+                            object-fit: cover;
+                            width: 44px;
+                            height: 44px;
+                          }
+                        }
+                      }
+
+                      .profile-details {
+                        padding-left: 46px;
+
+                        @media only screen and (max-width: 767px) {
+                          padding-left: 25px;
+                        }
+
+                        &>h5 {
+                          font-size: 16px;
+                          color: var(--theme-white);
+                          font-weight: 300;
+                          font-family: var(--theme-primary-font);
+                          line-height: 20.8px;
+                          margin-bottom: 0px;
+                        }
+
+                        &>span {
+                          font-family: var(--theme-primary-font);
+                          font-size: 13px;
+                          line-height: 16.9px;
+                          font-weight: 300;
+                          color: var(--theme-grey);
+                        }
+                      }
+                    }
+
+                    .profile-message {
+                      display: flex;
+                      align-items: center;
+                      justify-content: flex-end;
+                      padding-top: 30px;
+
+                      @media only screen and (max-width: 767px) {
+                        padding-top: 3px !important;
+                      }
+
+                      .message {
+                        padding-right: 60px;
+
+                        @media only screen and (max-width: 767px) {
+                          padding-right: 0px !important;
+                        }
+
+                        &>h5 {
+                          font-size: 13px;
+                          font-family: var(--theme-primary-font);
+                          line-height: 16.9px;
+                          color: var(--theme-grey);
+                        }
+                      }
+
+                      .arrow-collapse {
+                        @media only screen and (max-width: 767px) {
+                          padding-left: 15px;
+                          font-size: 10px;
+                        }
+
+                        font-size: 20px;
+                        color: var(--theme-hotPink);
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//employee job pages
+.jobFinder-page {
+  width: 100%;
+  padding-top: 10px;
+
+  .logo-image {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    max-width: 657px;
+    position: relative;
+
+    &>img {
+      width: 185px;
+      object-fit: cover;
+    }
+
+    .jobs-finds {
+      position: absolute;
+      left: 39%;
+
+      &>p {
+        font-size: 22px;
+        line-height: 26.4px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: var(--theme-white);
+        font-family: var(--theme-secondary-font);
+        padding-top: 40px;
+      }
+    }
+  }
+
+  .page-innerLoader {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+
+    @media only screen and (max-width:767px) {
+      max-width: 100%;
+      text-align: center;
+    }
+
+    .spinner-border {
+      --bs-spinner-width: auto;
+      --bs-spinner-height: auto;
+      border: 0;
+      width: 260px;
+      transform: rotateZ(0deg);
+
+      @media only screen and (max-width:767px) {
+        width: 86px;
+        height: 56px;
+      }
+
+      &>img {
+        width: 260px;
+        object-fit: cover;
+
+        @media only screen and (max-width:767px) {
+          width: 86px;
+          height: 56px;
+        }
+      }
+    }
+
+    .content-txt {
+      position: absolute;
+      top: 114px;
+      left: 33px;
+      right: 0;
+
+      @media only screen and (max-width:767px) {
+        top: 15px;
+        left: 0;
+      }
+
+      &>span {
+        font-size: 22px;
+        line-height: 26.4px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: var(--theme-white);
+        font-family: var(--theme-secondary-font);
+        text-transform: uppercase;
+
+        @media only screen and (max-width:767px) {
+          font-size: 18px;
+          line-height: 21.6px;
+        }
+      }
+    }
+  }
+
+  .jobfinder-result {
+    padding-top: 86px;
+    padding-left: 27px;
+    padding-left: 31px;
+    max-width: 850px;
+
+    @media screen and (max-width: 767px) {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 70px;
+      max-width: 298px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    h2 {
+      &.customHeading {
+        font-size: 56px;
+        line-height: 56px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: var(--theme-white);
+
+        @media screen and (max-width:1025px) {
+          font-size: 32px;
+          line-height: 35.2px;
+          font-weight: 600;
+        }
+
+        &>p {
+          margin-bottom: 0;
+        }
+
+        .jobs-count {
+          color: var(--theme-green);
+        }
+
+        .matchYou {
+          padding-left: 37px;
+
+          @media screen and (max-width: 767px) {
+            padding-left: 0px;
+          }
+        }
+      }
+    }
+
+    .find-action {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 38px;
+      max-width: 852px;
+
+      @media screen and (max-width:1025px) {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.employee-profile-parent {
+  padding-top: 165px;
+
+  .page-path {
+    padding-left: 19px;
+  }
+
+  .container-fluid {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .cruz-contents {
+    padding-top: 0px;
+
+    .cruz-layoutChild-section {
+      .profile-section {
+        padding-top: 10px;
+        max-width: 574px;
+        padding-right: 16px;
+
+        @media screen and (max-width: 767px) {
+          max-width: 100%;
+          padding-right: 7px;
+          padding-left: 7px;
+        }
+      }
+    }
+
+    .layout-action {
+      padding-top: 0;
+      padding-right: 69px;
+
+      .views {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 21.6px;
+        font-family: var(--theme-primary-font);
+      }
+    }
+  }
+}
+
+
+// employer-reviewPOstpage
+.ReviewEmployer-postpage {
+  .cruz-contents {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    @media screen and (max-width:767px) {
+      padding-top: 20px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+
+  .container {
+    padding-bottom: 98px;
+  }
+
+  .review-postpage-parent {
+    .page-path {
+      padding-left: 17px;
+
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        padding-left: 4px;
+        padding-bottom: 10px;
+      }
+    }
+
+    .container-fluid {
+      max-width: 1440px;
+    }
+  }
+
+  .reviewpost-header {
+    display: block;
+    max-width: 712px;
+    padding-top: 35px;
+    padding-left: 20px;
+
+    @media only screen and (min-width: 200px) and (max-width: 1025px) {
+      max-width: 100%;
+      padding-left: 0px;
+      padding-top: 0;
+    }
+
+    .review-post {
+      padding-bottom: 43px;
+      // padding-left:58px;
+      padding-left: 30px;
+
+      @media only screen and (min-width: 200px) and (max-width: 1025px) {
+        padding-left: 0px;
+      }
+
+      &>p {
+        line-height: 16.9px;
+        letter-spacing: 1px;
+        font-size: 13px;
+        font-weight: 500;
+        max-width: 574px;
+        border-bottom: 1px solid var(--theme-hotPink);
+        font-family: var(--theme-secondary-font);
+        color: var(--theme-white);
+        padding-bottom: 6px;
+        margin-bottom: 0;
+      }
+
+      h2 {
+        &.customHeading {
+          font-size: 37px;
+          line-height: 40px;
+          padding-top: 43px;
+          padding-left: 25px;
+          color: var(--theme-white);
+          font-weight: 600;
+          letter-spacing: 2px;
+
+          @media only screen and (min-width: 200px) and (max-width: 1025px) {
+            padding-left: 0px;
+            font-size: 21px;
+            text-align: center;
+            line-height: 25.2px;
+          }
+        }
+      }
+    }
+
+    .view-profile-section {
+      background-color: var(--theme-Mid-Tint);
+      border-radius: 8px;
+      padding: 26px 17px 26px 17px;
+      margin: 0 auto;
+      max-width: 632px;
+      margin-bottom: 16px;
+      margin-left: 28px;
+
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        max-width: 100%;
+        padding-left: 17px;
+        padding-right: 15px;
+        margin-left: 0px;
+      }
+
+      .profile-box {
+        .profile-box-header {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: base-line;
+          -ms-flex-align: base-line;
+          align-items: base-line;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          margin-bottom: 16px;
+          border-bottom: 1px solid var(--theme-quickSilver);
+
+          .profile-name {
+            h1 {
+              &.customHeading {
+                font-size: 22px;
+                line-height: 26.4px;
+                color: var(--theme-hotPink);
+                margin-bottom: 16px;
+
+                @media only screen and (min-width: 200px) and (max-width:330px) {
+                  font-size: 19px;
+                }
+              }
+            }
+          }
+
+          .profile-status {
+            &>span {
+              font-size: 11px;
+              font-weight: 500;
+              color: var(--theme-hotPink);
+              line-height: 14.3px;
+              text-transform: uppercase;
+              font-family: var(--theme-secondary-font);
+              letter-spacing: 0.55px;
+              position: relative;
+              bottom: 10px;
+            }
+          }
+        }
+
+        .profile-box-body {
+          .quick-details {
+            padding-left: 0;
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+
+            &>li {
+              list-style: none;
+              padding: 4px 13px 4px 13px;
+              border-radius: 24px;
+              background-color: var(--theme-white);
+              font-size: 12px;
+              line-height: 15.6px;
+              font-weight: 300;
+              font-family: var(--theme-primary-font);
+              color: var(--theme-black);
+              margin-right: 8px;
+
+              @media only screen and (max-width: 767px) {
+                padding: 3px;
+              }
+            }
+          }
+
+          .profile-overview {
+            &>p {
+              font-size: 18px;
+              line-height: 21.6px;
+              font-weight: 300;
+              font-family: var(--theme-primary-font);
+              color: var(--theme-thunder);
+            }
+          }
+        }
+      }
+
+      .custom-slider-wrapper {
+        .slick-slider {
+          padding-top: 0px;
+
+          .item {
+            padding-right: 8px;
+            padding-left: 0px;
+            margin-bottom: 8px;
+            height: 204px;
+
+            &:focus-visible {
+              outline: none;
+            }
+
+            &>a {
+              &>img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+              }
+            }
+          }
+
+          .slick-arrow {
+            display: none !important;
+          }
+        }
+      }
+
+      .employer-custom-card {
+        padding: 16px 16px 24px 16px;
+        background-color: var(--theme-white);
+        border-radius: 8px;
+        margin-bottom: 17px;
+        margin-top: 16px;
+
+        .employer-custom-card-title {
+          h1 {
+            &.customHeading {
+              font-size: 11px;
+              line-height: 14.3px;
+              text-transform: uppercase;
+              font-weight: 500;
+              margin-bottom: 11px;
+              color: var(--theme-bordergray);
+              font-family: var(--theme-secondary-font);
+            }
+          }
+        }
+
+        .employer-custom-card-body {
+          .item-box {
+            margin-bottom: 6px;
+
+            .options-heading {
+              width: 106px;
+
+              &>label {
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15.9px;
+                font-family: var(--theme-primary-font);
+                width: 106px;
+              }
+            }
+
+            &>label {
+              font-weight: 500;
+              font-size: 13px;
+              line-height: 15.9px;
+              font-family: var(--theme-primary-font);
+              width: 106px;
+            }
+
+            .view-data {
+              &>span {
+                font-weight: 300;
+                font-size: 13px;
+                color: var(--theme-head-black);
+                line-height: 15.9px;
+                font-family: var(--theme-primary-font);
+                word-wrap: break-word;
+              }
+            }
+
+            &>span {
+              font-weight: 300;
+              font-size: 12px;
+              color: var(--theme-head-black);
+              line-height: 15.9px;
+              font-family: var(--theme-primary-font);
+              word-wrap: break-word;
+            }
+          }
+
+          .para {
+            line-height: 15.6px;
+            font-size: 12px;
+            font-weight: 300;
+            font-family: var(--theme-primary-font);
+          }
+        }
+      }
+    }
+  }
+
+  .postjob-action {
+    max-width: 375px;
+    border-radius: 8px;
+    padding: 32px 16px 32px 16px;
+    border: 1px solid var(--theme-quickSilver);
+    margin-top: 35px;
+    display: block;
+    margin-top: 32px;
+
+    .prev-action {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .button-style {
+        font-weight: 300;
+        font-size: 15px;
+        text-decoration: none;
+        padding-bottom: 2px;
+        font-family: var(--theme-primary-font);
+        line-height: 19.5px;
+        color: var(--theme-white);
+        background-color: transparent;
+        width: auto;
+        min-width: auto;
+        padding: 0;
+
+        &>span {
+          border-bottom: 1px solid var(--theme-hotPink);
+
+          @media only screen and (max-width:767px) {
+            color: var(--theme-head-black);
+          }
+        }
+      }
+    }
+
+    @media only screen and (max-width: 767px) {
+      position: fixed;
+      bottom: 0;
+      max-width: 100%;
+      width: 100%;
+      left: 0;
+      border-radius: 0px;
+      z-index: 1;
+      background: #fff;
+      padding: 24px 15px 32px 15px;
+
+      .goback-save {
+        &>a {
+          color: var(--theme-head-black) !important;
+        }
+      }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 990px) {
+      margin-left: 27px;
+    }
+
+    .btn-light {
+      margin-bottom: 18px;
+
+      @media only screen and (max-width: 767px) {
+        background-color: var(--theme-thunder);
+
+        &>span {
+          color: var(--theme-white);
+        }
+
+        .btn-icon {
+          color: var(--theme-hotPink);
+        }
+      }
+    }
+
+    .goback-save {
+      &>a {
+        font-size: 15px;
+        font-weight: 300;
+        color: var(--theme-white);
+        text-decoration: none;
+        line-height: 19.5px;
+        padding-bottom: 2px;
+        font-family: var(--theme-primary-font);
+        border-bottom: 1px solid var(--theme-hotPink);
+      }
+    }
+  }
+
+  @media only screen and (min-width:768px) and (max-width: 967px) {
+    .reviewpost-header {
+      .view-profile-section {
+        width: 100%;
+        max-width: 100% !important;
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+// jobpostconfirmation page
+.JobpostStatus-page {
+  .postStatusPage {
+    padding-bottom: 243px;
+
+    @media only screen and (max-width: 767px) {
+      padding-bottom: 110px;
+    }
+
+    .hero-section {
+      padding-top: 156px;
+      background-position: 20% 61%;
+
+      &::before {
+        background-color: linear-gradient(to bottom,
+            transparent 0%,
+            rgba(40, 52, 64, 0.5) 70%,
+            var(--bg-navy, #283440) 99%);
+      }
+
+      @media only screen and (max-width: 767px) {
+        padding-top: 100px;
+      }
+
+      .container {
+        padding-bottom: 0;
+      }
+
+      .hero-section-heading {
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+          h1 {
+            &.customHeading {
+              text-align: center;
+              font-size: 56px;
+              line-height: 56px;
+            }
+          }
+        }
+
+        @media only screen and (max-width: 767px) {
+          h1 {
+            &.customHeading {
+              text-align: center;
+              font-size: 28px;
+              line-height: 35.2px;
+              font-weight: 600;
+              color: #ffffff;
+              letter-spacing: 1px;
+            }
+          }
+        }
+      }
+    }
+
+    .status-text {
+      margin: 0 auto;
+      text-align: center;
+
+      &>span {
+        line-height: 21.6px;
+        font-size: 18px;
+        color: var(--theme-white);
+        font-weight: 300;
+        font-family: var(--theme-primary-font);
+      }
+
+      .action-btn {
+        padding-top: 51px;
+
+        .button-style {
+          max-width: 100%;
+          min-width: 342px;
+
+          @media only screen and (min-width: 200px) and (max-width: 767px) {
+            min-width: 160px;
+          }
+        }
+      }
+    }
+  }
+
+  &.EmployeeJobPostStatus {
+    .postStatusPage {
+      position: relative;
+      padding-bottom: 0;
+
+      .hero-section {
+        background-position: 20% 0%;
+
+        &:before {
+          background-color: linear-gradient(to bottom,
+              transparent 0%,
+              rgba(40, 52, 64, 0.5) 0%,
+              var(--bg-navy, #283440) 3);
+        }
+
+        .hero-section-heading {
+          padding-bottom: 457px;
+
+          @media only screen and (max-width: 767px) {
+            padding-bottom: 203px;
+          }
+        }
+      }
+
+      .status-text {
+        position: absolute;
+        top: 49.5%;
+        width: 100%;
+
+        @media only screen and (max-width: 767px) {
+          position: initial;
+
+          &>span {
+            position: absolute;
+            top: 53%;
+            // width: 100%;
+            right: 25%;
+            left: 25%;
+          }
+
+          .action-btn {
+            padding-top: 36px;
+            padding-bottom: 36px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// employeesetUPStatus page
+.SetStatus-page {
+  .setUppage-content {
+    padding-left: 139px;
+
+    @media only screen and (max-width: 1025px) {
+      padding-left: 17px;
+      padding-right: 17px;
+    }
+
+    h2 {
+      &.customHeading {
+        color: var(--theme-white);
+        font-size: 32px;
+        line-height: 38.4px;
+        font-weight: 600;
+      }
+    }
+
+    .active-inactive {
+      margin-top: 22px;
+
+      .button-style {
+        display: block;
+        margin-bottom: 16px;
+        width: 343px;
+        max-width: 343px;
+        border: 1px solid var(--theme-TintLight);
+
+        @media only screen and (max-width: 767px) {
+          width: 100%;
+          max-width: 100%;
+        }
+
+        &.btn-light {
+          background-color: transparent;
+          font-size:15px;
+          line-height:19.5px;
+          font-weight:300;
+          font-family:var(--theme-primary-font);
+          text-transform:capitalize;
+          @media only screen and (max-width:1199px) {
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 16px;
+            width: 100%;
+          }
+
+          &>span {
+            font-size: 15px;
+            line-height: 19.5px;
+            font-weight: 300;
+            text-transform:capitalize;
+            color: var(--theme-white);
+            font-family: var(--theme-primary-font);
+          }
+
+          &.active {
+            background-color: var(--theme-white);
+            color: var(--theme-thunder);
+
+            &>span {
+              color: var(--theme-thunder);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .layout-action {
+    @media only screen and (min-width: 768px) and (max-width: 1025px) {
+      width: 50%;
+    }
+
+    @media only screen and (max-width: 1025px) {
+      padding-left: 0px;
+    }
+
+    .content-text {
+      position: relative;
+      padding: 32px 16px 32px 16px;
+      border-radius: 8px;
+      border: 1px solid var(--theme-quickSilver);
+
+      @media only screen and (max-width: 767px) {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0px;
+        max-width: 100%;
+        z-index: 2;
+        background-color: var(--theme-white);
+      }
+
+      &>p {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15.6px;
+        color: var(--theme-white);
+        font-family: var(--theme-primary-font);
+        text-align: center;
+
+        @media only screen and (max-width: 767px) {
+          color: var(--theme-head-black);
+          max-width: 183px;
+          margin: 0 auto;
+          margin-bottom: 16px;
+        }
+      }
+
+      .btn-light {
+        width: 100%;
+
+        @media only screen and (max-width: 767px) {
+          background-color: var(--theme-thunder);
+
+          &>span {
+            color: var(--theme-white);
+          }
+
+          .btn-icon {
+            color: var(--theme-hotPink);
+          }
+        }
+      }
+    }
+  }
+}
+
+.cruz-registerinner-content {
+  .action-field {
+    margin-top: 68px;
+    padding-left: 60px;
+
+    @media only screen and (min-width: 200px) and (max-width:1025px) {
+      margin-top: 0px;
+      padding-left: 0px;
+    }
+
+    @media only screen and (max-width:767px) {
+      position: fixed;
+      background: #fff;
+      z-index: 1000;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-top: 0px;
+      padding-left: 0px;
+
+      .btn-action {
+        .button-style {
+          background-color: var(--theme-thunder);
+
+          &>span {
+            color: var(--theme-white);
+          }
+
+          .btn-icon {
+            color: var(--theme-hotPink);
+          }
+        }
+      }
+    }
+
+    .card {
+      background-color: transparent;
+      border: 0;
+
+      @media only screen and (min-width:768px) and (max-width:1199px) {
+        padding-bottom: 60px;
+      }
+
+      .card-body {
+        padding: 32px 16px 32px 16px;
+        border-radius: 8px;
+        border: 1px solid var(--theme-Quicksilver);
+        max-width: 375px;
+
+        @media only screen and (min-width:768px) and (max-width:1025px) {
+          max-width: 100%;
+          margin: 0 auto;
+          width: 375px;
+          padding-bottom: 30px;
+        }
+
+        @media only screen and (min-width:200px) and (max-width:767px) {
+          max-width: 100%;
+          margin: 0 auto;
+          width: 100%;
+          padding-bottom: 30px;
+        }
+
+        .card-content {
+          max-width: 379px;
+          margin: 0 auto;
+
+          &>p {
+            line-height: 20.8px;
+            font-size: 16px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            color: var(--theme-white);
+            text-align: center;
+            margin-bottom: 18px;
+            font-family: var(--theme-primary-font);
+
+            @media only screen and (max-width:767px) {
+              color: var(--theme-head-black);
+            }
+          }
+
+          .action-button {
+            display: block;
+
+            .goback {
+              margin-top: 18px;
+
+              &>a {
+                font-weight: 300;
+                font-size: 15px;
+                text-decoration: none;
+                border-bottom: 1px solid var(--theme-hotPink);
+                padding-bottom: 2px;
+                font-family: var(--theme-primary-font);
+                line-height: 19.5px;
+                color: var(--theme-white);
+
+                @media only screen and (max-width:767px) {
+                  color: var(--theme-head-black);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:767px) {
+  .envolope-wrapper {
+    &.hide-on-mobile {
+      display: none;
+    }
+  }
+}
+
+.cruz-emptyMenu {
+  width: 100%;
+
+  @media only screen and (min-width:1300px) and (max-width:2000px) {
+    justify-content: normal !important;
+  }
+
+  .inner-bodypage {
+    &.Employeeprofile {
+      padding-left: 110px;
+      padding-top: 54px;
+
+      @media screen and (max-width:1024px) {
+        padding-left: 0;
+        padding-top: 0px;
+      }
+
+      h2 {
+        &.customHeading {
+          font-size: 39px;
+          padding-left: 31px;
+
+          @media screen and (max-width:1024px) {
+            font-size: 32px;
+            padding-left: 0;
+          }
+        }
+      }
+
+      .page-path {
+        padding-left: 33px;
+
+        @media screen and (max-width:1024px) {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+
+  .reviewpost-header {
+    .review-post {
+      padding-left: 85px;
+
+      @media screen and (max-width:1024px) {
+        padding-left: 0px;
+      }
+
+      h2 {
+        &.customHeading {
+          padding-left: 27px;
+
+          @media screen and (max-width:1024px) {
+            padding-left: 0px;
+          }
+        }
+      }
+    }
+
+    .view-profile-section {
+      max-width: 570px;
+      margin-left: 85px;
+
+      @media screen and (max-width:1024px) {
+        margin-left: 0px;
+      }
+    }
+  }
+}
+
+
+
+
+.text-pink {
+  color: var(--theme-hotPink);
+}
+
+.text-green {
+  color: var(--theme-green);
+}

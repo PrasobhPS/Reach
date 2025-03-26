@@ -1,0 +1,52 @@
+.horizontal-calendar {
+    display: flex;
+
+    .horizontalMenuWrapper {
+        max-width: 336px;
+        border-radius: 8px;
+        border-bottom: 1px solid var(--theme-quickSilver);
+        overflow: hidden;
+        background-color: var(--theme-quickSilverLight);
+
+        .menu-wrapper {
+            .menu-wrapper--inner {
+                .menu-item-wrapper {
+                    text-align: center;
+
+                    p {
+                        margin-bottom: 0;
+                        font-size: 13px;
+                        line-height: 16.9px;
+                        font-family: var(--theme-secodary-font);
+                        font-weight: 300;
+                        color: var(--theme-black);
+                        border-bottom: 1px solid var(--theme-quickSilver);
+                        padding: 11px 16px;
+                    }
+
+                    button {
+                        border-radius: 0;
+                        border: 0;
+                        background-color: var(--theme-white);
+                        color: var(--theme-black);
+                        padding: 16px;
+
+                        span {
+                            display: block;
+                        }
+
+                        &.active {
+                            background-color: var(--theme-hotPink);
+                            color: var(--theme-white);
+                        }
+
+                        &.highlighted {
+                            background-color: #455663;
+                            color: var(--theme-white);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

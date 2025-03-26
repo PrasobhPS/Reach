@@ -1,0 +1,72 @@
+h1{
+    &.customHeading{
+        font-family: var(--theme-secondary-font);
+        font-size: 54px;
+        font-weight:600;
+        line-height:40px;
+        letter-spacing:0.16px;
+        text-transform: uppercase;
+        margin: 0;
+        @media screen and (max-width:767px){
+            font-size:34px;
+        }
+    }
+    &.primary-heading{
+        color: var(--theme-white);
+        text-align: center;
+    }
+} 
+h2{
+    &.customHeading{
+        font-family: var(--theme-secondary-font);
+        font-size: 40px;
+        font-weight: 600;
+        line-height:40px;
+        letter-spacing:0.16px;
+        text-transform: uppercase;
+        margin: 0;
+        @media screen and (max-width:767px){
+            font-size:26px;
+        }
+    }
+}
+h3{
+    &.customHeading{
+        font-family: var(--theme-secondary-font);
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.1;
+        text-transform: uppercase;
+        margin: 0;
+        @media screen and (max-width:767px){
+            font-size: 22px;
+        }
+    }
+}
+h4{
+    &.customHeading{
+        font-family: var(--theme-secondary-font);
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.1;
+        letter-spacing: 0.44px;
+        text-transform: uppercase;
+        margin: 0;
+        @media screen and (max-width:767px){
+            font-size: 18px;
+        }
+    }
+}
+
+h5{
+    &.customHeading{
+        font-family: var(--theme-secondary-font);
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.1;
+        margin: 0;
+        @media screen and (max-width:767px){
+            font-size: 16px;
+        }
+    }
+}

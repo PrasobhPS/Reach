@@ -1,0 +1,30 @@
+export interface BookingInterfaces {
+  id: number;
+  call_status: string;
+  day: string;
+  month: string;
+  firstName: string;
+  lastName: string;
+  time: string;
+  fee: number;
+  member_image: string;
+  btnText: string;
+  btnClassname: string;
+  btnTheme: string;
+  is_specialistval: string;
+  callDate: Date;
+  specialist_id: number;
+  bookingTab: string;
+  scheduledTime: string;
+  scheduleDate: string;
+  call_scheduled_reason: string;
+  members_country?: string;
+  meeting_link?: string;
+  showCancel?: boolean;
+  showCall?: boolean;
+  showRearrange?: boolean;
+  hourDifference?: number;
+  timeSlot?: string;
+  currency?: string;
+  duration: number;
+}

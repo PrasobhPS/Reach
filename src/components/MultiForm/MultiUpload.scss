@@ -1,0 +1,84 @@
+.multipleupload-sections {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  .multipleupload {
+    .grid-imageupload {
+      border: 1px dashed var(--theme-Tint);
+      width: 100%;
+      height: 157px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      & > img {
+        width: 100%;
+        height: 157px;
+        object-fit: cover;
+        border-radius: 8px;
+        &.default-img {
+          height: auto;
+          width: auto;
+          border-radius: 0px;
+        }
+      }
+    }
+    .action-buttonsoption {
+      position: relative;
+      .plus {
+        position: absolute;
+        bottom: 4px;
+        right: 0;
+        left: 0;
+        .file-input-container {
+          position: relative;
+          display: inline-block;
+        }
+        .file-input {
+          display: none;
+        }
+        .file-input-label {
+          display: flex;
+          align-items: center;
+          padding: 0;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 16px;
+          position: absolute;
+          bottom: -5px;
+          right: 0;
+          left: 0px;
+          justify-content: center;
+        }
+        .file-input-label .fa-icon {
+          margin-right: 10px;
+        }
+      }
+      .close-option {
+        position: absolute;
+        bottom: 7px;
+        right: 0;
+        left: 0;
+      }
+    }
+  }
+  .caption-text {
+    & > span {
+      font-family: var(--theme-primary-font);
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 15.6px;
+      color: var(--theme-grey);
+    }
+  }
+  .error {
+    color: var(--theme-hotPink);
+    display: block;
+    font-family: var(--theme-primary-font);
+    font-weight: 300;
+    font-size: 11px;
+    margin-top: 6px;
+    line-height: 15.4px;
+  }
+}

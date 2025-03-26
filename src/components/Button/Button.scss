@@ -1,0 +1,80 @@
+@import '../../assets/scss/variables';
+
+.button-style {
+    padding: 12px 28px;
+    border: 0;
+    border-radius: 3px;
+    min-width: 160px;
+    line-height: 20.8px;
+    cursor: pointer;
+    -webkit-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    font-family: var(--theme-primary-font);
+
+    &.button-reverse {
+        width: 100%;
+        border:1px solid var(--theme-Quicksilver);
+        border-radius: 5px;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+
+        .btn-icon {
+            margin-right: 6px;
+            margin-left: 0px;
+        }
+    }
+
+    span {
+        font-size: 11px;
+        font-weight: 500;
+        font-family: var(--theme-secondary-font);
+        line-height:14.3px;
+        text-transform:uppercase;
+        &.btn-icon {
+            font-size: 13px;
+            margin-left: 13px;
+            color: var(--theme-hotPink);
+        }
+    }
+
+    &.btn-light {
+        background-color: var(--theme-white);
+        color: var(--theme-thunder);
+
+        span {
+            &:not(.btn-icon) {
+                color: var(--theme-thunder);
+            }
+        }
+    }
+
+    &.btn-dark {
+        background-color: var(--theme-thunder);
+        color: var(--theme-white);
+
+        span {
+            &:not(.btn-icon) {
+                color: var(--theme-white);
+            }
+        }
+    }
+
+    &.btn-grey {
+        background-color: $form-textgray;
+        color: var(--theme-thunder);
+
+        span {
+            &:not(.btn-icon) {
+                color: var(--theme-thunder);
+            }
+        }
+    }
+
+    &.btn-large {
+        width: 100%;
+    }
+}

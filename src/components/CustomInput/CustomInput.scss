@@ -1,0 +1,124 @@
+@import '../../assets/scss/variables';
+
+.custom-input {
+    &.form-group {
+        text-align: left;
+
+        &.input-block {
+            margin-bottom: 24px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        textarea,
+        input[type="password"] {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-width: 1px;
+            border-radius: 0px;
+            padding-top: 0.5rem;
+            padding-right: 0.75rem;
+            padding-bottom: 0.5rem;
+            padding-left: 0;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            border-radius: 0;
+            background-color: transparent;
+            border: 0;
+            border-bottom: 1px solid $white;
+            font-family: var(--theme-primary-font);
+            outline: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+
+            &:focus {
+                background-color: var(--theme-white);
+
+                color: var(--theme-text-black) !important;
+
+                &::placeholder {
+                    color: var(--theme-text-black) !important;
+
+                }
+
+                &::-webkit-input-placeholder {
+                    color: var(--theme-text-black);
+                }
+
+                &::-moz-placeholder {
+                    color: var(--theme-text-black);
+                }
+
+                &:-ms-input-placeholder {
+                    color: var(--theme-text-black);
+                }
+
+                &:-moz-placeholder {
+                    color: var(--theme-text-black);
+                }
+            }
+        }
+
+        .form-control {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-width: 1px;
+            border-radius: 0px;
+            padding-top: 0.5rem;
+            padding-right: 0.75rem;
+            padding-bottom: 0.5rem;
+            padding-left: 0;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            border-radius: 0;
+            background-color: transparent;
+            border: 0;
+            border-bottom: 1px solid $white;
+            font-family: var(--theme-primary-font);
+            outline: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            color: $white;
+
+            &::-webkit-input-placeholder {
+                /* Chrome/Opera/Safari */
+                color: $white;
+            }
+
+            &::-moz-placeholder {
+                /* Firefox 19+ */
+                color: $white;
+            }
+
+            &:-ms-input-placeholder {
+                /* IE 10+ */
+                color: $white;
+            }
+
+            &:-moz-placeholder {
+                /* Firefox 18- */
+                color: $white;
+            }
+
+        }
+
+        .error {
+            color: var(--theme-hotPink);
+            display: block;
+            font-family: var(--theme-primary-font);
+            font-weight: 300;
+            font-size: 11px;
+            line-height: 15.4px;
+            margin-top: 6px;
+        }
+
+        &.has-error {
+            .form-control {
+                border-bottom-color: var(--theme-hotPink);
+            }
+        }
+    }
+}

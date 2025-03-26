@@ -1,0 +1,85 @@
+#headlessui-portal-root{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index:3;
+    .modal-picker{
+        padding-top:20px;
+        background-color:#f3f3f3 !important;
+    }
+}
+.click-to-select{
+     position: absolute;
+    top:-15px;
+    right:24px;
+}
+@media screen and (min-width:768px){
+    .customModalDate{
+      display:none;
+    }
+    #headlessui-portal-root{
+        display:none;
+    }
+}
+ .customModalDate{
+        .form-input{
+            .col{
+                padding-left:13px;
+                padding-right:10px;
+            }
+            label{
+                font-size:15px;
+                font-family:var(--theme-primary-font);
+                font-weight:300;
+                color:var(--theme-white);
+                margin-bottom:5px;
+                text-align: start;
+                 width: 100%;
+            }
+            .form-control{
+                text-align:center;
+                color:var(--theme-grey);
+                font-size:15px;
+                font-family:var(--theme-primary-font);
+                font-weight:300;
+                border-radius:0;
+                background-color:transparent;
+                line-height:19.5px;
+                height:37px;
+                width:100%;
+                border:1px solid var(--theme-Mid-Tint);
+            }
+        }
+    }
+.current-date{
+    font-size:20px;
+    font-weight:600;
+    font-family:var(--theme-primary-font);
+    color:var(--theme-head-black);
+}
+.date-over{
+    font-size:16px;
+    font-weight:600;
+    font-family:var(--theme-primary-font);
+    color:var(--theme-grey);
+}
+.click-to-select{
+    .click-to-proceed{
+        color:var(--theme-head-black);
+        font-family:var(--theme-secondary-font);
+        font-size:19px;
+        border: 0;
+        font-weight:500;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 4px;
+        background:#d1d1d1;
+    }
+}
+@media screen and (max-width:767px){
+    .multistep-datepicker{
+        .jobDatePicker{
+            display:none;
+        }
+    }
+}

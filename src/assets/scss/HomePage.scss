@@ -1,0 +1,73 @@
+.home-content{
+    .full-window-image-box{
+        .image-box {
+            height: 100vh;
+            overflow: hidden;
+             @media only screen and (min-width:360px) and (max-width:399px)  {
+                 height:90vh;
+             }
+             @media only screen and (min-width:400px) and (max-width: 767px)  {
+                height:91vh;
+            }
+            @media only screen and (min-width:200px) and (max-width:359px)  {
+                 height:88vh;
+            }
+        }
+        .content-box{
+            .text-white{
+                word-wrap: break-word;
+                max-width: 419px;
+                margin: 0 auto;
+            }
+        }
+        .video-box{
+             height: 100vh;
+            overflow: hidden;
+             @media only screen and (min-width:360px) and (max-width:399px)  {
+                 height:90vh;
+             }
+             @media only screen and (min-width:400px) and (max-width: 767px)  {
+                height:91vh;
+            }
+            @media only screen and (min-width:200px) and (max-width:359px)  {
+                 height:88vh;
+            }
+        }
+        .content-box{
+            .heading-parenthome{
+                max-width:499px;
+                margin: 0 auto;
+                text-align: center;
+                @media screen and (max-width:767px){
+                    padding-left: 24px;
+                    padding-right:24px;
+                     max-width:100%;
+                }
+                @media only screen and (min-width: 200px) and (max-width:400px)  {
+                    padding-left:0px;
+                    padding-right:0px;
+                    max-width:100%;
+                 }
+            }
+            h2{
+                @media only screen and (min-width:200px) and (max-width: 767px)  {
+                    &.customHeading{
+                        font-size:32px;
+                        font-weight:600;
+                        line-height:35.2px;
+                        font-family:var(--theme-secondary-font);
+                        color:var(--theme-white);
+                    }
+                }
+            }
+            .text-white{
+                 @media only screen and (min-width:200px) and (max-width: 767px)  {
+                    font-size:16px;
+                    font-family:var(--theme-primary-font);
+                    font-weight:300;
+                    line-height:19.2px;
+                 }
+            }
+        }
+    }
+}

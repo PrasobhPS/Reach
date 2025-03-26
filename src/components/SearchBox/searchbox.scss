@@ -1,0 +1,26 @@
+@import '../../assets/scss/variables';
+
+.search-area{
+  position: relative;
+    input{
+     border: 0px;
+     border-bottom: solid 1px #9D9C9C;
+     background: none;
+     padding: 8px 0; 
+     color: #9D9C9C;
+     font-size: 13px;
+     font-weight: 300;
+     font-family: var(--theme-primary-font);
+     width: 100%;
+     padding-right: 35px;
+      &:focus{
+        outline: none;
+      }
+    }
+    .btn-search{
+      position: absolute;
+      right: 0;
+      color: #9D9C9C;
+      font-size: 13px;
+    }
+}

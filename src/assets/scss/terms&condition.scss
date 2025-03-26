@@ -1,0 +1,52 @@
+.terms-and-condition {
+    position: relative;
+
+    * {
+        color: #ffffff !important;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero-section {
+        background-position: 24% 0%;
+
+        // background-size: contain;
+        &>.container {
+            padding-top: 303px;
+        }
+
+        .hero-section-heading {
+            position: relative;
+            padding-bottom: 14px;
+
+            h1 {
+                &.customHeading {
+                    line-height: 56px;
+                    font-size: 56px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    margin-bottom: 97px;
+                    @media screen and (max-width:767px){
+                        font-size:40px;
+                        line-height:36px;
+                    }
+                }
+            }
+        }
+
+        .inner-content {
+            .inner-subtext {
+                .subtext {
+                    font-size: 16px;
+                    font-weight: 300;
+                    max-width: 690px;
+                    line-height: 20.8px;
+                    font-family: var(--theme-primary-font);
+                }
+            }
+        }
+    }
+}

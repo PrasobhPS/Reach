@@ -1,0 +1,447 @@
+.Chandlery-page{
+    .hero-section{
+        background-position:25% 77%;
+        &>.container{
+            padding-bottom:0px;
+        }
+        .hero-section-heading{
+            padding-top:144px;
+            // padding-bottom:51px;
+            @media only screen and (max-width:767px) {
+                padding-top:5px;
+            }
+            @media only screen and (max-width:767px) {
+                .hero-heading{
+                    font-size:40px;
+                    line-height:45px;
+                    font-weight:600;
+                    margin-bottom: 5px;
+                    font-family:var(--theme-secondary-font);
+                }
+            }
+            .inner-content{
+                .inner-child{
+                    @media only screen and (max-width:767px) {
+                        padding-bottom:53px;
+                        padding-left:17px;
+                        padding-right:17px;
+                    }
+                    .subtext{
+                        margin-top:15px;
+                        line-height:21.6px;
+                        font-size:18px;
+                        padding-bottom:28px;
+                        font-family:var(--theme-primary-font);
+                        @media only screen and (max-width:767px) {
+                            line-height:19.2px;
+                            font-size:16px;
+                            font-weight:300;
+                            font-family:var(--theme-primary-font);
+                            padding-bottom:0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .logo-container{
+        height: 34px;
+        width: 133px;
+        padding-top:20px;
+        padding-left:20px;
+        float:left;
+        @media only screen and (max-width:767px) {
+            width:89px;
+            padding-top: 16px;
+            padding-left: 12px;
+        }
+        &>img{
+            width:100%;
+            object-fit:cover;
+        }
+    }
+    .Chandlery-pagecontainer{
+        padding-left:74px;
+        padding-right:74px;
+        padding-bottom: 129px;
+        @media only screen and (max-width:767px) {
+            padding-left:17px;
+            padding-right:17px;
+        }
+        .more-card-field{
+            margin-bottom:30px;
+        }
+        .header-parentbox{
+            .two-col-box{
+                margin-bottom:30px;
+                // max-height:463px;
+                @media only screen and (max-width:767px) {
+                    background-position: 25% 77%;
+                }
+                .Twocolumnimagebox{
+                    height:100%;
+                    @media only screen and (max-width:767px) {
+                        width:100%;
+                    }
+                    &>div{
+                        height:100%;
+                        @media only screen and (min-width:768px) and (max-width:900px)  {
+                            flex: 0 0 auto;
+                            width: 100%;
+                        }
+                        .content-box{
+                            height:100%;
+                            max-width:445px;
+                            margin-right:0;
+                            padding-top:20px;
+                            @media only screen and (min-width:768px) and (max-width:1100px){
+                                max-width:340px;
+                            }
+                            @media only screen and (max-width:767px) {
+                                max-width:100%;
+                            }
+                            .coupon-container{
+                                .cat-list{
+                                    margin-bottom:69px;
+                                    &>li{
+                                        font-weight:500;
+                                        font-size:9px;
+                                        text-transform:uppercase;
+                                        font-family:var(--theme-secondary-font);
+                                        color:var(--theme-head-black);
+                                        line-height:11.7px;
+                                        letter-spacing:1px;
+                                    }
+                                }
+                                .offer-label{
+                                    font-family:var(--theme-secondary-font);
+                                    font-size:22px;
+                                    font-weight:600;
+                                    line-height:26.4px;
+                                    @media screen and (max-width:767px){
+                                        font-size:18px;
+                                        line-height:21.6px;
+                                        font-weight:600;
+                                        
+                                    }
+                                }
+                                &>p{
+                                    font-size:16px;
+                                    line-height:20.8px;
+                                    font-weight:300;
+                                    margin-bottom:21px;
+                                    font-family:var(--theme-primary-font);
+                                     @media screen and (max-width:767px){
+                                        font-size:12px;
+                                        line-height:15.6px;
+                                        font-weight:300;
+                                        font-family:var(--theme-primary-font);
+                                     }
+                                }
+                                .coupon-code{
+                                    margin-bottom:24px;
+                                    .form-control{
+                                        height:43px;
+                                        font-size:13px;
+                                        max-width:259px;
+                                        font-family:var(--theme-primary-font);
+                                        font-weight:300;
+                                        line-height:16.9px;
+                                        @media only screen and (max-width:767px) {
+                                            max-width:100%;
+                                        }
+                                    }
+                                    .btn-dark{
+                                        right:0;
+                                        width:auto;
+                                        min-width:60px;
+                                    &>span{
+                                        font-size:13px;
+                                        font-family:var(--theme-primary-font);
+                                        font-weight:300;
+                                        line-height:16.9px;
+                                        color:var(--theme-white);
+                                        text-transform:capitalize;
+                                    }
+                                    }
+                                }
+                                .visiturl{
+                                    text-decoration:none;
+                                    font-weight:300;
+                                    font-family:var(--theme-primary-font);
+                                    font-size:16px;
+                                    line-height:20.8px;
+                                    padding-bottom:2px;
+                                    border-bottom:1px solid var(--theme-hotPink);
+                                    .btn-icon{
+                                        margin-left:6px;
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .more-card-field{
+            @media only screen and (min-width:768px) and (max-width:1058px)  {
+                width:100%;
+            }
+            .two-col-box{
+                // height:312px;
+                margin-bottom:30px;
+                height:100%;
+                max-height:100%;
+                @media only screen and (min-width:200px) and (max-width:1077px)  {
+                    height:auto;
+                }
+                @media only screen and (min-width:1078px) and (max-width:3000px)  {
+                    height:100%;
+                }
+                @media only screen and (max-width:767px) {
+                    background-position: 25% 77%;
+                }
+                .Twocolumnimagebox{
+                    height:100%;
+                    height: 100%;
+                    max-height: 100%;
+                    min-height: 100%;
+                    display: flex;
+                    @media only screen and (max-width:767px) {
+                        width:100%;
+                    }
+                    &>div{
+                        &:nth-child(1){
+                            @media (min-width: 768px) {
+                                flex: 0 0 auto;
+                                width: 33.33333333%;
+                            }
+                        }
+                        &:nth-child(2){
+                            @media (min-width: 768px) {
+                                flex: 0 0 auto;
+                                width: 66.66666667%;
+                            }
+                        }
+                        height:100%;
+                        .content-box{
+                            height:100%;
+                            padding-top:17px;
+                            max-width: 349px;
+                            margin-right:-1px;
+                            padding-left:33px;
+                            @media only screen and (max-width:767px) {
+                                max-width:100%;
+                                 margin-right:0px;
+                                padding-left:15px;
+                            }
+                            .coupon-container{
+                                max-width:100%;
+                                .cat-list{
+                                    margin-bottom:23px;
+                                    &>li{
+                                        font-size:9px;
+                                        font-weight:500;
+                                        line-height:11.7px;
+                                        text-transform:uppercase;
+                                        letter-spacing:1px;
+                                        font-family:var(--theme-secondary-font);
+                                        margin-right:7px;
+                                        padding-left:10px;
+                                    }
+                                }
+                                .offer-label{
+                                    font-size:22px;
+                                    font-weight:600;
+                                    line-height:26.4px;
+                                    font-family:var(--theme-secondary-font);
+                                }
+                                h1{
+                                    &.customHeading{
+                                        font-size:32px;
+                                        line-height:38.4px;
+                                        font-weight:600;
+                                        font-family:var(--theme-secondary-font);
+                                        margin-bottom:7px;
+                                         @media only screen and (max-width:767px) {
+                                             font-size:21px;
+                                             line-height:25.2px;
+                                         }
+                                    }
+                                }
+                                &>p{
+                                    line-height:16.9px;
+                                    font-size:13px;
+                                    font-weight:300;
+                                    font-family:var(--theme-primary-font);
+                                }
+                                .coupon-code{
+                                    margin-bottom:13px;
+                                    @media only screen and (max-width:767px) {
+                                    max-width:300px;
+                                    }
+                                    .form-control{
+                                        max-width:259px;
+                                        height:43px;
+                                        font-size:13px;
+                                        font-family:var(--theme-primary-font);
+                                        font-weight:300;
+                                        line-height:16.9px;
+                                        border:1px solid var(--theme-thunder);
+                                        @media only screen and (max-width:767px) {
+                                            max-width:100%;
+                                        }
+                                    }
+                                    .btn-dark{
+                                        min-width:95px;
+                                        height:43px;
+                                        border-radius:0px 4px 4px 0px;
+                                         @media only screen and (max-width:767px) {
+                                             height:28px;
+                                         }
+                                        &>span{
+                                            line-height:16.9px;
+                                            font-size:13px;
+                                            font-weight:300;
+                                            font-family:var(--theme-primary-font);
+                                            text-transform:capitalize;
+                                        }
+                                    }   
+                                }
+                                .visiturl{
+                                    font-size:13px;
+                                    line-height:16.9px;
+                                    font-weight:300;
+                                    text-decoration:none;
+                                    font-family:var(--theme-primary-font);
+                                    border-bottom:1px solid var(--theme-head-black);
+                                    padding-bottom:2px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .menu-sliderslick{
+        max-width: 856px;
+        margin: 0 auto;
+        padding-bottom:40px;
+        @media only screen and (max-width:767px) {
+            padding-left: 17px;
+            padding-right: 17px;
+        }
+        .custom-slider-wrapper{
+            &.action-up-arrow{
+                .slick-slider{
+                    padding-top:0px;
+                    padding-bottom:40px;
+                    background-color: rgb(53, 64, 75);
+                    padding: 10px 38px 11px 36px;
+                    border-radius: 5px;
+                    height: 100%;
+                    margin-bottom:40px;
+                     @media only screen and (max-width:767px) {
+                        margin-bottom:0px;
+                        padding:10px 14px 11px 14px;
+                        .slick-prev{
+                            display:none !important;
+                        }
+                        .slick-next{
+                            display:none !important;
+                        }
+                     }
+                    &.item{
+                        padding-bottom:0px;
+                    }
+                    .slick-list{
+                        background-color: rgb(53, 64, 75);
+                        max-width: 856px;
+                        margin: 0 auto;
+                        .slick-track{
+                            margin-left:0;
+                            margin-right:0;
+                        }
+                    }
+                    .slick-arrow{
+                        width:35px;
+                        height:40px;
+                         top:0;
+                         right:0;
+                         background-size:23px;
+                        &.slick-prev{
+                            left:9px;
+                            top:22px;
+                        }
+                        &.slick-next{
+                            right:9px;
+                        }
+                    }
+                }
+            }
+        }
+        .slick-slide{
+            &>div{
+                padding-left:10px;
+                padding-right:10px;
+            }
+            &.slick-current{
+                .item{
+                    .itemlist-heading{
+                        display:inline-block;
+                        border-bottom:1px solid var(--theme-hotPink);
+                        
+                    }
+                }
+            }
+            .item{
+                margin-bottom:0px;
+                padding-left: 0px;
+                padding-right: 0px;
+                text-align: center;
+                cursor: pointer;
+                .itemlist-heading{
+                    font-size: 13px;
+                    color: var(--theme-white);
+                    text-align: center;
+                    font-family: var(--theme-primary-font);
+                    line-height: 16.9px;
+                    display: inline-block;
+                }
+                &>a{
+                    &>img{
+                        display:none;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:767px){
+        .Twocolumnimagebox{
+            .image-box{
+              padding-top:152px;
+            }
+            .content-box{
+                .coupon-container{
+                    h1{
+                        &.customHeading{
+                            line-height:25.2px;
+                            letter-spacing:0px;
+                            margin-bottom:11px;
+                        }
+                    }
+                    &>p{
+                        margin-bottom:7px !important;
+                    }
+                    .coupon-code{
+                        &>.form-control{
+                            height:28px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

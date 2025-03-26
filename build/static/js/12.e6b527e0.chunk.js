@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreach=self.webpackChunkreach||[]).push([[12],{20012:(e,c,r)=>{r.r(c),r.d(c,{default:()=>u});r(65043);var s=r(70579);const u=function(){return(0,s.jsx)("div",{children:"Clubs"})}}}]);
+//# sourceMappingURL=12.e6b527e0.chunk.js.map

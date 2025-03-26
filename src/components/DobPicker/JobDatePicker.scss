@@ -1,0 +1,40 @@
+.jobDatePicker{
+    position: relative;
+    margin-bottom:23px;
+    .formcontrol-label{
+        font-size:15px;
+        line-height:19.5px;
+        font-weight:300;
+        display:flex;
+        margin-bottom:5px;
+        color:var(--theme-white);
+        font-family:var(--theme-primary-font);
+    }
+    .form-group{
+      &.custom-input{
+        .form-control{
+          text-align:center;
+          color:var(--theme-grey);
+          font-size:15px;
+          font-family:var(--theme-primary-font);
+          font-weight:300;
+          line-height:19.5px;
+          border:1px solid var(--theme-Mid-Tint);
+        }
+      }
+    }
+    .form-control{
+        padding:9px 8px 10px 8px;
+        border-radius:3px;
+        color:var(--theme-white);
+        background-color:transparent;
+        border:1px solid var(--theme-Mid-Tint);
+        & > option {
+            color:var(--theme-head-black);
+          }
+          &::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            color: #ffffff;
+          }
+    }
+}

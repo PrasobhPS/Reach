@@ -1,0 +1,124 @@
+.registration-form {
+      padding-bottom: 174px;
+      max-width: 343px;
+      margin: 0 auto;
+      padding-top:26px;
+      margin-left:92px;
+       @media only screen and (max-width: 1025px) {
+       margin-left:auto;
+        padding-bottom:0px;
+       }
+       @media only screen and (min-width: 200px) and (max-width:344px){
+          width:100%;
+       }
+      h2{
+        &.customHeading{
+          font-weight:600;
+          font-size:22px;
+          color:var(--theme-white);
+          line-height:26.4px;
+          margin-bottom:16px;
+           @media only screen and (max-width:767px) {
+            font-size:18px;
+            line-height:21.6px;
+           }
+        }
+      }
+      .description-text{
+        margin-bottom:2px;
+        &>p{
+          font-size:13px;
+          line-height:16.9px;
+          font-weight:300;
+          font-family:var(--theme-primary-font);
+          color:var(--theme-grey);
+        }
+      }
+      .profile-label {
+        text-align: justify;
+        color: var(--theme-white);
+        font-size: 13px;
+      }
+      .custom-input {
+        .form-control {
+          font-size: 13px;
+          line-height: 16.9px;
+          padding: 6px;
+          margin: 0px;
+          padding: 0px 0px 8px 0px;
+          margin:0px;
+          border:0;
+        }
+        label{
+          color:var(--theme-bordergray);
+          padding:5px 4px 4px 2px;
+        }
+      }
+      .proofUpload{
+        padding-bottom:24px;
+        border-bottom:1px solid var(--theme-bordergray);
+        &>.container{
+          padding-left:0;
+          padding-right:0;
+        }
+        .file-uploads {
+          .dropzone {
+            border:1px solid var(--theme-bordergray);
+            .label-for{
+              padding-left:0px;
+              font-weight:300;
+              font-size:15px;
+              line-height:19.5px;
+              font-family:var(--theme-primary-font);
+              color:var(--theme-white);
+              margin-left:0;
+              .file{
+                display:block;
+              }
+            }
+            .icon-logo {
+              max-width:74px;
+              max-height:85px;
+              width:91px;
+            }
+          }
+        }
+      }
+      .identity-verification{
+        margin-top:30px;
+        h2{
+          .customHeading{
+            font-size:22px;
+            font-weight:600;
+            line-height:26.4px;
+            color:var(--theme-white);
+            margin-bottom:10px;
+          }
+        }
+        .custom-input{
+          border:1px solid var(--theme-Quicksilver);
+          &>.form-control{
+          
+            border-bottom:0;
+            font-weight:300;
+            font-size:15px;
+            line-height:19.5px;
+            font-family:var(--theme-primary-font);
+            color:var(--theme-grey);
+             padding-top:11px;
+              text-align: center;
+            &::placeholder{
+               color:var(--theme-grey);
+               font-weight:300;
+                font-size:15px;
+                line-height:19.5px;
+                font-family:var(--theme-primary-font);
+                text-align: center;
+            }
+          }
+        }
+      }
+      .btn-common {
+        margin-top: 24px;
+      }
+}

@@ -1,0 +1,42 @@
+.salary-picker-form {
+    margin-top: 22px;
+
+    .salary-picker {
+        &.currency-type {
+            .form-control {
+                width:90px;
+                padding: 9px 8px 10px 8px;
+                border-radius: 3px;
+                text-align: center;
+                border: 1px solid var(--theme-Mid-Tint);
+                background-color: transparent;
+                color: var(--theme-white);
+                font-size: 15px;
+                font-weight: 300;
+                  height:40px;
+                &>option {
+                    color: var(--theme-head-black);
+                }
+
+                @media only screen and (max-width:767px) {
+                    width:96%;
+                  
+                }
+                @media only screen and (min-width:1026px) and (max-width:1399px)  {
+                    width:85px;
+                }
+            }
+        }
+    }
+
+    .salary-text {
+        .form-control {
+            padding: 9px 8px 10px 8px;
+            border-radius: 3px;
+            border: 1px solid var(--theme-Mid-Tint);
+            background-color: transparent;
+            color: var(--theme-white);
+            height:40px;
+        }
+    }
+}

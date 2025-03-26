@@ -1,0 +1,60 @@
+.videocard{
+    margin-bottom: 50px;
+    a{
+        display: block;
+        text-decoration: none;
+        .img-box{
+            position: relative;
+            img{
+                border-radius: 8px;
+                margin-bottom: 15px;
+                width: 100%;
+            }
+            .playbtn{
+                display:-webkit-inline-box;
+                display:-ms-inline-flexbox;
+                display:inline-flex;
+                -webkit-box-align:center;
+                -ms-flex-align:center;
+                align-items:center;
+                -webkit-box-pack:center;
+                -ms-flex-pack:center;
+                justify-content:center;
+                width: 40px;
+                height: 40px;
+                // background-color: var(--theme-hotPink);
+                color: var(--theme-white);
+                border-radius: 50%;
+                position: absolute;
+                bottom: 35px;
+                left: 20px;
+            }
+        }
+        .content-box{
+            h6{
+                font-size: 18px;
+                line-height: 27px;
+                margin-bottom: 5px;
+                color: var(--theme-white);
+                font-weight: 300;
+                font-family: var(--theme-primary-font);
+                margin-bottom: 4px;
+                .video-count{
+                    color: var(--theme-grey);
+                    font-size: 14px;
+                }
+            }
+            p{
+                color: var(--theme-white);
+                margin-bottom: 5px;
+            }
+            .desc-box{
+                font-size: 14px;
+                margin-bottom: 8px;
+                color: var(--theme-grey);
+                line-height: 21px;
+                font-weight: 300;
+            }
+        }
+    }
+}

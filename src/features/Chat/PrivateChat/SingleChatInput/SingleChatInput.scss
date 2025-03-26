@@ -1,0 +1,103 @@
+.single-chat-container{
+  .typping-msg{
+    color: var(--theme-grey);
+    font-size: 11px;
+    line-height: 15.4px;
+    font-weight: 300;
+    font-family: var(--theme-primary-font);
+    margin: 0 0 9px 16px;
+    height: 10px;
+  }
+ .input-area{
+   background: #fff;
+   padding: 16px 12px;
+   border-bottom-left-radius:8px;
+   border-bottom-right-radius:8px;
+   position: relative;
+   .add-file{
+     position: relative;
+     display: block;
+    .icon{
+     font-size: 22px;
+     color: #ADB5BD;
+     cursor: pointer;
+    }
+    input[type="file"]{
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+    }
+   }
+   .smile-area{
+     .smile-block{
+      width: 26px;
+      margin:0px 8px;
+      cursor: pointer;
+      img{
+        width: 100%;
+      }
+     }
+     .smile-wrapper{
+       position: absolute;
+       left: 0;
+       bottom: 110px;
+       width: 100%;
+       padding: 0px 15px;
+       aside{
+        @media(max-width: 480px){
+          width: 100%;
+        }
+       }
+     }
+   }
+   .message{
+     margin: 0px 12px;
+     width: 100%;
+    .message-area{
+      background: #E9EEF3;
+      width: 100%;
+      resize: none;
+      font-size: 15px;
+      color: #0F1828;
+      font-weight: 300;
+      line-height: 19.5px;
+      font-family: var(--theme-primary-font);
+      padding: 6px 8px;
+      border: 0;
+      max-height:49px;
+      overflow: auto;
+      white-space: normal;
+      word-break:break-word;
+      &:focus{
+        outline: none;
+      }
+      img{
+        //display: block;
+        width: 20px;
+      }
+    }
+   }
+   .action-button{
+    .icon{
+        font-size: 22px;
+        color: #FF0075;
+        cursor: pointer;
+    }
+   }
+   .chat-footer{
+     margin-top: 30.5px;
+    .divider{
+       background: var(--theme-thunder);
+       width: 131px;
+       height: 5px;
+       border-radius: 10px;
+       -moz-border-radius: 10px;
+       -wbkit-border-radius: 10px;
+       margin: 0 auto;
+    }
+   }
+ }
+}

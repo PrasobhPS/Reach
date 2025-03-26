@@ -1,0 +1,95 @@
+@import '../../../assets/scss/variables';
+
+.navbar-menu {
+    @media only screen and (max-width:1025px) {
+        &.navbar-expand-md {
+            display: none;
+        }
+    }
+
+    .navbar-nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+
+        .nav-item {
+            // padding-left:15px;
+            // padding-right:15px;
+            padding-left: 15px;
+            padding-right: 10px;
+            font-weight: 300;
+
+            &>a {
+                color: $white;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                text-decoration: none;
+                font-family: var(--theme-primary-font);
+                font-weight: 300;
+                font-size: 15px;
+                text-transform: uppercase;
+                line-height: 20.8px;
+
+                &.active {
+                    border-bottom: 1px solid $hotPink;
+                }
+            }
+
+            &.dropdown {
+                &>a {
+                    &:after {
+                        content: "";
+                        background-image: url('../../../assets/images/angle-dropdown.svg');
+                        display: inline-block;
+                        width: 10px;
+                        height: 10px;
+                        background-size: 10px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        margin-left: 5px;
+                        transform: rotate(0deg);
+                        transition: all ease 300ms;
+                        border: 0;
+                        vertical-align: baseline;
+                    }
+                }
+
+                .dropdown-menu {
+                    position: absolute;
+                    background: #FFF;
+                    border-radius: 0 0 3px 3px;
+                    padding: 0 10px 10px;
+                    opacity: 0;
+                    top: -20px;
+                    transition: all ease 300ms;
+                    pointer-events: none;
+                    left: 0;
+                    border: 0;
+                    margin: 0;
+
+                    &>a {
+                        color: $oil;
+                        display: block;
+                        padding: 4px 7px;
+                        min-width: 170px;
+                        text-decoration: none;
+                        font-family: var(--theme-primary-font);
+                        font-weight: 300;
+                        line-height: 24.8px;
+                    }
+                }
+
+                &:hover {
+                    .dropdown-menu {
+                        opacity: 1;
+                        pointer-events: all;
+                        top: 100%;
+                        padding-top: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

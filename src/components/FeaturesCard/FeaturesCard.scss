@@ -1,0 +1,52 @@
+@import '../../assets/scss/variables';
+.features-card{
+    border-bottom: 3px solid;
+    border-color:#fff;
+    .parent-content-text{
+        text-align: start;
+        .customHeading{
+            font-size:20px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin: 0;
+            color:$white;
+            margin-bottom: 8px;
+            line-height:26.4px;
+            font-family:var(--theme-secondary-font);
+        }
+        &>p{
+            color:$white;
+            line-height:20.8px;
+            font-size:16px;
+            font-family: var(--theme-primary-font);
+            margin:0;
+            margin-bottom: 8px;
+            @media screen and (max-width:767px){
+                font-size:12px;
+                font-weight:300;
+                line-height:15.6px;
+                padding-bottom: 12px;
+            }
+        }
+        &>a{
+            font-family: var(--theme-primary-font);
+            color:$white;
+            line-height:20.8px;
+            font-size:16px;
+        }
+    }
+    .icone-box{
+        text-align:center;
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+          align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}

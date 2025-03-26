@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreach=self.webpackChunkreach||[]).push([[4288],{44288:(s,e,c)=>{c.r(e),c.d(e,{default:()=>r});c(65043);var n=c(356),a=(c(17503),c(70579));const r=function(){return(0,a.jsx)("div",{className:"App",children:(0,a.jsx)("div",{className:"terms-and-condition",children:(0,a.jsx)(n.j,{links:[]})})})}}}]);
+//# sourceMappingURL=4288.d112e4ea.chunk.js.map
